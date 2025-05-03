@@ -1,0 +1,14 @@
+command_id: 7E0.0113
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E803411303'
+  expected_values:
+    O2S11_EXISTS: 1
+    O2S12_EXISTS: 1
+    O2S13_EXISTS: 0
+    O2S14_EXISTS: 0
+    O2S21_EXISTS: 0
+    O2S22_EXISTS: 0
+    O2S23_EXISTS: 0
+    O2S24_EXISTS: 0

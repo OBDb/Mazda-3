@@ -42,3 +42,9 @@ supported_commands_by_ecu:
   - 0156:LGSO2FT1
   - 0159:FRP_ABS
   - 0168:IAT_11,IAT_11_SUP,IAT_12,IAT_12_SUP,IAT_13,IAT_13_SUP,IAT_21,IAT_21_SUP,IAT_22,IAT_22_SUP,IAT_23,IAT_23_SUP
+unsupported_commands_by_ecu:
+  720:
+  - 720.22C901
+  - 720.22C902
+  7E0:
+  - 7E0.7E8.0151
