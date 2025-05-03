@@ -1,0 +1,58 @@
+command_id: 7E0.01A6
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80641A6000C3CC6
+  expected_values:
+    ODO: 80199
+- response: 7E80641A6000C3CCB
+  expected_values:
+    ODO: 80199.5
+- response: 7E80641A6000C3CCF
+  expected_values:
+    ODO: 80199.9
+- response: 7E80641A6000C3CD3
+  expected_values:
+    ODO: 80200.3
+- response: 7E80641A6000C3CDA
+  expected_values:
+    ODO: 80201
+- response: 7E80641A6000C3CDF
+  expected_values:
+    ODO: 80201.5
+- response: 7E80641A6000C3CE1
+  expected_values:
+    ODO: 80201.7
+- response: 7E80641A6000C3CE6
+  expected_values:
+    ODO: 80202.2
+- response: 7E80641A6000C3CEC
+  expected_values:
+    ODO: 80202.8
+- response: 7E80641A6000C443F
+  expected_values:
+    ODO: 80390.3
+- response: 7E80641A6000C4441
+  expected_values:
+    ODO: 80390.5
+- response: 7E80641A6000C4445
+  expected_values:
+    ODO: 80390.9
+- response: 7E80641A6000C444A
+  expected_values:
+    ODO: 80391.4
+- response: 7E80641A6000C444D
+  expected_values:
+    ODO: 80391.7
+- response: 7E80641A6000C4452
+  expected_values:
+    ODO: 80392.2
+- response: 7E80641A6000C4456
+  expected_values:
+    ODO: 80392.6
+- response: 7E80641A6000C4458
+  expected_values:
+    ODO: 80392.8
+- response: 7E80641A6000C445B
+  expected_values:
+    ODO: 80393.1
