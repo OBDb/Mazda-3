@@ -33,3 +33,7 @@ supported_commands_by_ecu:
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
   - 0145:TP_R
+unsupported_commands_by_ecu:
+  720:
+  - 720.22C901
+  - 720.22C902
