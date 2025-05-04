@@ -62,12 +62,21 @@ test_cases:
 - response: 7E803412F4E
   expected_values:
     FLI: 30.58824
+- response: 7E803412F52
+  expected_values:
+    FLI: 32.15686
 - response: 7E803412F55
   expected_values:
     FLI: 33.33333
+- response: 7E803412F57
+  expected_values:
+    FLI: 34.11765
 - response: 7E803412F5B
   expected_values:
     FLI: 35.68627
+- response: 7E803412F5E
+  expected_values:
+    FLI: 36.86275
 - response: 7E803412F60
   expected_values:
     FLI: 37.64706
@@ -86,6 +95,9 @@ test_cases:
 - response: 7E803412F6F
   expected_values:
     FLI: 43.52941
+- response: 7E803412F70
+  expected_values:
+    FLI: 43.92157
 - response: 7E803412F75
   expected_values:
     FLI: 45.88235
@@ -134,6 +146,9 @@ test_cases:
 - response: 7E803412FA4
   expected_values:
     FLI: 64.31373
+- response: 7E803412FA6
+  expected_values:
+    FLI: 65.09804
 - response: 7E803412FA8
   expected_values:
     FLI: 65.88235
