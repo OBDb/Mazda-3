@@ -1,19 +1,19 @@
 { "commands": [
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A05"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 1 Pressure"}
+    {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 1 pressure"}
   ]},
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 2 Pressure"}
+    {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 2 pressure"}
   ]},
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A07"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 3 Pressure"}
+    {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 3 pressure"}
   ]},
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A08"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 4 Pressure"}
+    {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 4 pressure"}
   ]},
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 15,
   "signals": [
@@ -30,6 +30,26 @@
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A0D"}, "freq": 15,
   "signals": [
     {"id": "MAZDA3_TT_4", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 4 temperature"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0301"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_MAP", "path": "ECU", "fmt": { "len": 16, "max": 4, "div": 1000, "unit": "volts" }, "name": "MAP voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0306"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_EGR_OPEN", "path": "ECU", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "millimeters" }, "name": "Exhaust gas recirculation open", "description": "Monitors the physical position of the EGR valve, which controls the amount of exhaust gas being recirculated back into the engine's intake system."}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0307"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_FP_LD", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Fuel pump load"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0380"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_DPF_REGEN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter regeneration status", "description": "The current phase of the regeneration cycle. Lower values typically indicate normal operation with no active regeneration. Mid-range values indicate the regeneration process is in progress. Higher values represent later stages of the regeneration cycle. A value returning to 0 or near-zero indicates a completed regeneration cycle."}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03DB"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_EXH_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 4.5, "div": 200, "unit": "volts" }, "name": "Exhaust differential pressure", "description": "This sensor is crucial for monitoring how clogged the DPF has become. It measures the pressure before and after the DPF in the exhaust system, with the difference between these two measurements indicating how restricted the filter has become. When the pressure difference becomes too high (indicating a clogged filter), the ECM will initiate a regeneration process to burn off the accumulated soot and clean the filter."}
   ]}
 ]
 }
