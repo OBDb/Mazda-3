@@ -31,25 +31,97 @@
   "signals": [
     {"id": "MAZDA3_TT_4", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 4 temperature"}
   ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "61B1"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55, "unit": "liters" }, "name": "Fuel level"}
+  ]},
+{ "hdr": "793", "dbg": true, "cmd": {"22": "D901"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_CC_TGT_DIST", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 63.75, "div": 4, "unit": "meters" }, "name": "Distance from bumper to target"}
+  ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0301"}, "freq": 0.25,
   "signals": [
-    {"id": "MAZDA3_MAP", "path": "ECU", "fmt": { "len": 16, "max": 4, "div": 1000, "unit": "volts" }, "name": "MAP voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
+    {"id": "MAZDA3_MAP", "path": "Engine", "fmt": { "len": 16, "max": 4, "div": 1000, "unit": "volts" }, "name": "MAP voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0306"}, "freq": 1,
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0306"}, "freq": 0.25,
   "signals": [
-    {"id": "MAZDA3_EGR_OPEN", "path": "ECU", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "millimeters" }, "name": "Exhaust gas recirculation open", "description": "Monitors the physical position of the EGR valve, which controls the amount of exhaust gas being recirculated back into the engine's intake system."}
+    {"id": "MAZDA3_EGR_OPEN_MM", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "millimeters" }, "name": "Exhaust gas recirculation open", "description": "Monitors the physical position of the EGR valve, which controls the amount of exhaust gas being recirculated back into the engine's intake system."}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0307"}, "freq": 0.25,
   "signals": [
     {"id": "MAZDA3_FP_LD", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Fuel pump load"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0380"}, "freq": 1,
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0380"}, "freq": 0.25,
   "signals": [
     {"id": "MAZDA3_DPF_REGEN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter regeneration status", "description": "The current phase of the regeneration cycle. Lower values typically indicate normal operation with no active regeneration. Mid-range values indicate the regeneration process is in progress. Higher values represent later stages of the regeneration cycle. A value returning to 0 or near-zero indicates a completed regeneration cycle."}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03DB"}, "freq": 1,
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03DB"}, "freq": 0.251,
   "signals": [
     {"id": "MAZDA3_EXH_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 4.5, "div": 200, "unit": "volts" }, "name": "Exhaust differential pressure", "description": "This sensor is crucial for monitoring how clogged the DPF has become. It measures the pressure before and after the DPF in the exhaust system, with the difference between these two measurements indicating how restricted the filter has become. When the pressure difference becomes too high (indicating a clogged filter), the ECM will initiate a regeneration process to burn off the accumulated soot and clean the filter."}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03DF"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_VGT_OPEN_PERC", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Variable geometry turbocharger open", "description": "Measures the position of the vanes in the Variable Geometry Turbocharger (VGT) and reports this position as a percentage value."}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03FB"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_EGR_OPEN_PERC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Exhaust gas recirculation open"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0415"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_EOP", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "042C"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_DPF_PM_ACC", "path": "Engine.DPF", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "gramsPerLiter" }, "name": "Diesel particulate filter particulate matter accumulation"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "042D"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_DPF_PM_GEN", "path": "Engine.DPF", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "gramsPerLiter" }, "name": "Diesel particulate filter particulate matter generation"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0432"}, "freq": 60,
+  "signals": [
+    {"id": "MAZDA3_DPF_REGEN_CNT", "path": "Engine.DPF", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Diesel particulate filter regeneration count"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0433"}, "freq": 60,
+  "signals": [
+    {"id": "MAZDA3_DPF_LAMP_CNT", "path": "Engine.DPF", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Diesel particulate filter lamp count"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0434"}, "freq": 2,
+  "signals": [
+    {"id": "MAZDA3_DPF_REGEN_DIST", "path": "Engine.DPF", "fmt": {"bix": 8, "len": 24, "max": 25600, "mul": 100, "div": 65535, "unit": "kilometers" }, "name": "Diesel particulate filter regeneration distance"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0435"}, "freq": 60,
+  "signals": [
+    {"id": "MAZDA3_OIL_DIL_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil dilution events", "description": "Monitors fuel dilution in your engine oil, which is when fuel (gasoline) mixes with the engine oil in the crankcase."}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "044B"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_DPF_PM_ACC_DES", "path": "Engine.DPF", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "gramsPerLiter" }, "name": "Diesel particulate filter particulate matter accumulation (desired)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0451"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_OXY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oxygen concentration"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "050F"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_VGT_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "millimeters" }, "name": "Variable geometry turbocharger open"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0519"}, "freq": 5,
+  "signals": [
+    {"id": "MAZDA3_OIL_CHANGE_DIST", "path": "Fluids", "fmt": { "len": 16, "max": 262140, "mul": 4, "unit": "kilometers" }, "name": "Distance since oil changed"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0522"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temp"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0542"}, "freq": 5,
+  "signals": [
+    {"id": "MAZDA3_OIL_CHANGE_DIST_MAX", "path": "Fluids", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Max distance to oil change"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1310"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_EOT", "path": "Engine", "fmt": { "len": 16, "max": 615.35, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]}
 ]
 }
