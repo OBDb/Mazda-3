@@ -20,9 +20,9 @@ test_cases:
     7E903410D53
   expected_values:
     VSS: 83
-- response: 7E803410D79
+- response: 7E803410D7E
   expected_values:
-    VSS: 121
+    VSS: 126
 - response: |-
     7E903410D00
     7E803410D00

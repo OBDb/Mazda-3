@@ -1,4 +1,35 @@
 { "commands": [
-
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A05"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 1 Pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 2 Pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A07"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 3 Pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A08"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 4 Pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 15,
+  "signals": [
+    {"id": "MAZDA3_TT_1", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 1 temperature"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0B"}, "freq": 15,
+  "signals": [
+    {"id": "MAZDA3_TT_2", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 2 temperature"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0C"}, "freq": 15,
+  "signals": [
+    {"id": "MAZDA3_TT_3", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 3 temperature"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0D"}, "freq": 15,
+  "signals": [
+    {"id": "MAZDA3_TT_4", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 4 temperature"}
+  ]}
 ]
 }

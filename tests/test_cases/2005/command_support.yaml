@@ -36,4 +36,3 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   720:
   - 720.22C901
-  - 720.22C902
