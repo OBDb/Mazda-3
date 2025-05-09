@@ -2,30 +2,9 @@ command_id: 7E0.2203DF
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8056203DF0422
+- response: 7E8056203DF0007
   expected_values:
-    MAZDA3_VGT_OPEN_PERC: 1.6144
-- response: 7E8056203DF0B75
-  expected_values:
-    MAZDA3_VGT_OPEN_PERC: 4.47547
-- response: 7E8056203DF0C5C
-  expected_values:
-    MAZDA3_VGT_OPEN_PERC: 4.82795
-- response: 7E8056203DF2BF8
-  expected_values:
-    MAZDA3_VGT_OPEN_PERC: 17.17556
-- response: 7E8056203DF3426
-  expected_values:
-    MAZDA3_VGT_OPEN_PERC: 20.37079
-- response: 7E8056203DF3527
-  expected_values:
-    MAZDA3_VGT_OPEN_PERC: 20.76295
-- response: 7E8056203DF5E84
-  expected_values:
-    MAZDA3_VGT_OPEN_PERC: 36.92073
-- response: 7E8056203DF702E
-  expected_values:
-    MAZDA3_VGT_OPEN_PERC: 43.82086
+    MAZDA3_VGT_OPEN_PERC: 0.01068
 - response: 7E8056203DFFFFF
   expected_values:
     MAZDA3_VGT_OPEN_PERC: 100

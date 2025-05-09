@@ -66,7 +66,7 @@ unsupported_commands_by_ecu:
   - 720.222A0D
   - 720.2261B1
   793:
-  - 793.22D901
+  - 793.22D901:MAZDA3_CC_TGT_DIST
   7E0:
   - 7E0.220301
   - 7E0.220306

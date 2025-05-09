@@ -2,9 +2,9 @@ command_id: 7E0.220522
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: '7E80462052256'
+- response: '7E80462052237'
   expected_values:
-    MAZDA3_FUEL_T: 46
+    MAZDA3_FUEL_T: 15
 - response: '7E80462052270'
   expected_values:
     MAZDA3_FUEL_T: 72

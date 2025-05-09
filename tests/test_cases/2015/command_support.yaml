@@ -63,5 +63,6 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   720:
+  - 720.222A07:MAZDA3_TP_3
   - 720.22C901
   - 720.22C902
