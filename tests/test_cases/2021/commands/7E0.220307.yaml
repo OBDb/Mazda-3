@@ -1,0 +1,25 @@
+command_id: 7E0.220307
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E8056203073953'
+  expected_values:
+    MAZDA3_FP_LD: 22.39261
+- response: '7E8056203073960'
+  expected_values:
+    MAZDA3_FP_LD: 22.41245
+- response: '7E8056203073977'
+  expected_values:
+    MAZDA3_FP_LD: 22.44755
+- response: 7E805620307397A
+  expected_values:
+    MAZDA3_FP_LD: 22.45212
+- response: 7E805620307398C
+  expected_values:
+    MAZDA3_FP_LD: 22.47959
+- response: 7E80562030739A2
+  expected_values:
+    MAZDA3_FP_LD: 22.51316
+- response: 7E8056203073A3E
+  expected_values:
+    MAZDA3_FP_LD: 22.7512
