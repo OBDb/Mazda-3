@@ -2,9 +2,9 @@ command_id: 7E0.2203DF
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8056203DF0007
+- response: 7E8056203DF0000
   expected_values:
-    MAZDA3_VGT_OPEN_PERC: 0.01068
+    MAZDA3_VGT_OPEN_PERC: 0
 - response: 7E8056203DFFFFF
   expected_values:
     MAZDA3_VGT_OPEN_PERC: 100
