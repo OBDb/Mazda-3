@@ -1,0 +1,16 @@
+command_id: 7E0.221310
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E8056213101646'
+  expected_values:
+    MAZDA3_EOT: 17.02
+- response: 7E8056213102A01
+  expected_values:
+    MAZDA3_EOT: 67.53
+- response: 7E8056213102DFF
+  expected_values:
+    MAZDA3_EOT: 77.75
+- response: '7E8056213103002'
+  expected_values:
+    MAZDA3_EOT: 82.9

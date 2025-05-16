@@ -2,15 +2,15 @@ command_id: 7E0.221310
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80562131020F7
+- response: 7E8056213101ED2
   expected_values:
-    MAZDA3_EOT: 44.39
-- response: 7E8056213102AFE
+    MAZDA3_EOT: 38.9
+- response: '7E8056213102600'
   expected_values:
-    MAZDA3_EOT: 70.06
-- response: '7E8056213103104'
+    MAZDA3_EOT: 57.28
+- response: 7E80562131028FF
   expected_values:
-    MAZDA3_EOT: 85.48
-- response: '7E8056213103405'
+    MAZDA3_EOT: 64.95
+- response: 7E805621310370B
   expected_values:
-    MAZDA3_EOT: 93.17
+    MAZDA3_EOT: 100.91
