@@ -5,12 +5,12 @@ test_cases:
 - response: '7E8056213101646'
   expected_values:
     MAZDA3_EOT: 17.02
-- response: 7E8056213102A01
+- response: '7E8056213102301'
   expected_values:
-    MAZDA3_EOT: 67.53
-- response: 7E8056213102DFF
+    MAZDA3_EOT: 49.61
+- response: 7E80562131025FF
   expected_values:
-    MAZDA3_EOT: 77.75
+    MAZDA3_EOT: 57.27
 - response: '7E8056213103002'
   expected_values:
     MAZDA3_EOT: 82.9

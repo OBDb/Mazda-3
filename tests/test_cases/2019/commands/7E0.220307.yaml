@@ -5,12 +5,12 @@ test_cases:
 - response: '7E8056203073953'
   expected_values:
     MAZDA3_FP_LD: 22.39261
-- response: 7E8056203073A04
+- response: 7E8056203073B01
   expected_values:
-    MAZDA3_FP_LD: 22.6627
-- response: 7E8056203073CFB
+    MAZDA3_FP_LD: 23.04875
+- response: 7E8056203073BFE
   expected_values:
-    MAZDA3_FP_LD: 23.82086
-- response: 7E8056203073E22
+    MAZDA3_FP_LD: 23.43481
+- response: '7E8056203074190'
   expected_values:
-    MAZDA3_FP_LD: 24.271
+    MAZDA3_FP_LD: 25.61074
