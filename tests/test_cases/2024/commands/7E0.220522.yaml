@@ -1,0 +1,8 @@
+command_id: 7E0.220522
+test_cases:
+- response: 7E8046205225A
+  expected_values:
+    MAZDA3_FUEL_T: 50
+- response: 7E8046205225B
+  expected_values:
+    MAZDA3_FUEL_T: 51

@@ -1,31 +1,216 @@
 command_id: 7E0.220307
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E805620307489B
   expected_values:
     MAZDA3_FP_LD: 28.36194
-- response: '7E8056203074946'
+- response: 7E80562030749FF
   expected_values:
-    MAZDA3_FP_LD: 28.62287
-- response: '7E8056203074956'
-  expected_values:
-    MAZDA3_FP_LD: 28.64729
-- response: 7E8056203074A5F
-  expected_values:
-    MAZDA3_FP_LD: 29.05165
-- response: 7E8056203074A61
-  expected_values:
-    MAZDA3_FP_LD: 29.0547
-- response: 7E8056203074B2A
-  expected_values:
-    MAZDA3_FP_LD: 29.36141
-- response: 7E8056203074BD3
-  expected_values:
-    MAZDA3_FP_LD: 29.61929
-- response: 7E8056203074BF8
-  expected_values:
-    MAZDA3_FP_LD: 29.67575
+    MAZDA3_FP_LD: 28.90517
 - response: 7E8056203074D02
   expected_values:
     MAZDA3_FP_LD: 30.08164
+- response: 7E805620307500A
+  expected_values:
+    MAZDA3_FP_LD: 31.26574
+- response: |-
+    NO DATA
+    > 720.222A05
+    NO DATA
+    > 720.222A07
+    NO DATA
+    > 7E0.2203FB
+    NO DATA
+    > 720.222A0D
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 720.222A07
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 720.222A08
+    NO DATA
+    > 7E0.220519
+    NO DATA
+    > 7E0.2203DB
+    NO DATA
+    > 7E0.2203DF
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 720.222A0C
+    NO DATA
+    > 7E0.22042D
+    NO DATA
+    > 7E0.220433
+    NO DATA
+    > 720.222A0A
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 720.222A0A
+    NO DATA
+    > 7E0.220522
+    NO DATA
+    > 7E0.220542
+    NO DATA
+    > 7E0.220435
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 720.222A0B
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 720.222A0D
+    NO DATA
+    > 720.222A0C
+    NO DATA
+    > 7E0.220434
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 720.222A06
+    NO DATA
+    > 7E0.22042D
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 720.2261B1
+    NO DATA
+    > 7E0.220380
+    NO DATA
+    > 7E0.220519
+    NO DATA
+    > 7E0.2203FB
+    NO DATA
+    > 7E0.220434
+    NO DATA
+    > 7E0.220522
+    NO DATA
+    > 793.22D901
+    NO DATA
+    > 720.222A0D
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 720.222A05
+    NO DATA
+    > 7E0.220433
+    NO DATA
+    > 7E0.220542
+    NO DATA
+    > 720.222A0C
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 793.22D901
+    NO DATA
+    > 7E0.2203DB
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 793.22D901
+    NO DATA
+    > 7E0.22042D
+    NO DATA
+    > 720.2261B1
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 720.222A05
+    NO DATA
+    > 720.222A0C
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 7E0.220306
+    NO DATA
+    > 720.222A0A
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 720.222A0B
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 7E0.220380
+    NO DATA
+    > 7E0.220306
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.220415
+    NO DATA
+    > 7E0.220542
+    NO DATA
+    > 720.222A05
+    NO DATA
+    > 7E0.220519
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
+    > 7E0.220435
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
