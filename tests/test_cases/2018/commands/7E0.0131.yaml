@@ -1,6 +1,4 @@
 command_id: 7E0.0131
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: |-
     7E8044131062C
@@ -18,20 +16,188 @@ test_cases:
   expected_values:
     CLR_DIST: 1584
 - response: |-
-    7E80441310653
-    7E9044131063B
+    7E80441310700
+    7E904413106E6
   expected_values:
-    CLR_DIST: 1595
+    CLR_DIST: 1766
 - response: |-
     7E90441310614
     7E8044131062B
   expected_values:
     CLR_DIST: 1579
-- response: |-
-    7E90441310639
-    7E80441310651
-  expected_values:
-    CLR_DIST: 1617
 - response: 7E9044131063B
   expected_values:
     CLR_DIST: 1595
+- response: |-
+    7E904413106F5
+    7E80441310710
+  expected_values:
+    CLR_DIST: 1808
+- response: 7E904413106F7
+  expected_values:
+    CLR_DIST: 1783
+- response: |-
+    7E904413106F7
+    7E80441310712
+  expected_values:
+    CLR_DIST: 1810
+- response: |-
+    NO DATA
+    > 793.22D901
+    NO DATA
+    > 720.222A06
+    NO DATA
+    > 7E0.220434
+    NO DATA
+    > 7E0.22044B
+    NO DATA
+    > 7E0.220451
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441310661
+    7E90441310648
+  expected_values:
+    CLR_DIST: 1608
+- response: |-
+    NO DATA
+    > 7E0.220306
+    NO DATA
+    > 7E0.2203DB
+    NO DATA
+    > 720.222A06
+    NO DATA
+    > 7E0.220451
+    NO DATA
+    > 720.222A07
+    NO DATA
+    > 7E0.22044B
+    NO DATA
+    > 7E0.7E8.0131
+    7E8044131067C
+    7E90441310663
+  expected_values:
+    CLR_DIST: 1635
+- response: |-
+    NO DATA
+    > 7E0.2203DF
+    NO DATA
+    > 7E0.220380
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.2203FB
+    NO DATA
+    > 720.222A0A
+    NO DATA
+    > 7E0.220433
+    NO DATA
+    > 720.222A08
+    NO DATA
+    > 7E0.220415
+    NO DATA
+    > 7E0.220519
+    NO DATA
+    > 720.222A0B
+    NO DATA
+    > 7E0.220435
+    NO DATA
+    > 7E0.22044B
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441310643
+    7E9044131062B
+  expected_values:
+    CLR_DIST: 1579
+- response: |-
+    NO DATA
+    > 7E0.2203FB
+    NO DATA
+    > 7E0.2203DF
+    NO DATA
+    > 7E0.220542
+    NO DATA
+    > 7E0.220519
+    NO DATA
+    > 720.2261B1
+    NO DATA
+    > 720.222A0D
+    NO DATA
+    > 720.222A0C
+    NO DATA
+    > 7E0.220415
+    NO DATA
+    > 7E0.7E8.0131
+    7E8044131065A
+    7E90441310641
+  expected_values:
+    CLR_DIST: 1601
+- response: |-
+    NO DATA
+    > 7E0.22044B
+    NO DATA
+    > 720.222A0D
+    NO DATA
+    > 7E0.7E8.0131
+    7E90441310614
+    7E8044131062B
+  expected_values:
+    CLR_DIST: 1579
+- response: |-
+    NO DATA
+    > 7E0.220522
+    NO DATA
+    > 7E0.7E8.0131
+    7E8044131065E
+    7E90441310645
+  expected_values:
+    CLR_DIST: 1605
+- response: |-
+    NO DATA
+    > 7E0.220542
+    NO DATA
+    > 720.222A07
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441310712
+    7E904413106F7
+  expected_values:
+    CLR_DIST: 1783
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441310656
+    7E9044131063E
+  expected_values:
+    CLR_DIST: 1598
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413106FB
+    7E904413106E0
+  expected_values:
+    CLR_DIST: 1760
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441310711
+    7E904413106F6
+  expected_values:
+    CLR_DIST: 1782
+- response: |-
+    NO DATA
+    > ATRV
+    13.0V
+    13.1V
+    > 7E0.220415
+    NO DATA
+    > 720.222A08
+    NO DATA
+    > 7E0.2203FB
+    NO DATA
+    > 7E0.220380
+    NO DATA
+    > 7E0.7E8.0131
+    7E8044131062B
+    7E90441310614
+  expected_values:
+    CLR_DIST: 1556

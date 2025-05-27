@@ -1,10 +1,8 @@
 command_id: 7E0.220415
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: '7E8056204150073'
+- response: '7E8056204150004'
   expected_values:
-    MAZDA3_EOP: 115
+    MAZDA3_EOP: 4
 - response: 7E80562041500FF
   expected_values:
     MAZDA3_EOP: 255

@@ -1,0 +1,5 @@
+command_id: 7E0.0133
+test_cases:
+- response: '7E803413363'
+  expected_values:
+    BARO: 99

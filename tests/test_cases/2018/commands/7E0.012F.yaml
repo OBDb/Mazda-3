@@ -1,10 +1,192 @@
 command_id: 7E0.012F
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E803412FA3
+- response: 7E803412F45
   expected_values:
-    FLI: 63.92157
+    FLI: 27.05882
 - response: 7E803412FEE
   expected_values:
     FLI: 93.33333
+- response: |-
+    NO DATA
+    > 720.222A05
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F9A
+  expected_values:
+    FLI: 60.39216
+- response: |-
+    NO DATA
+    > 720.222A0B
+    NO DATA
+    > 720.222A07
+    NO DATA
+    > 7E0.220522
+    NO DATA
+    > 7E0.220434
+    NO DATA
+    > 7E0.220451
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412FED
+  expected_values:
+    FLI: 92.94118
+- response: |-
+    NO DATA
+    > 720.222A0B
+    NO DATA
+    > 720.2261B1
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F88
+  expected_values:
+    FLI: 53.33333
+- response: |-
+    NO DATA
+    > 720.222A0D
+    NO DATA
+    > 7E0.220306
+    NO DATA
+    > 793.22D901
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 7E0.22050F
+    NO DATA
+    > 7E0.220433
+    NO DATA
+    > 7E0.22042D
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.220380
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F88
+  expected_values:
+    FLI: 53.33333
+- response: |-
+    NO DATA
+    > 7E0.220306
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F45
+  expected_values:
+    FLI: 27.05882
+- response: |-
+    NO DATA
+    > 7E0.220415
+    NO DATA
+    > 7E0.22042D
+    NO DATA
+    > 720.222A0C
+    NO DATA
+    > 7E0.2203DB
+    NO DATA
+    > 720.2261B1
+    NO DATA
+    > 7E0.220519
+    NO DATA
+    > 720.222A05
+    NO DATA
+    > 7E0.22044B
+    NO DATA
+    > 7E0.2203FB
+    NO DATA
+    > 7E0.220522
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.220435
+    NO DATA
+    > 7E0.220380
+    NO DATA
+    > 720.222A0D
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F91
+  expected_values:
+    FLI: 56.86275
+- response: |-
+    NO DATA
+    > 7E0.220415
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 7E0.220522
+    NO DATA
+    > 7E0.220435
+    NO DATA
+    > 720.222A0A
+    NO DATA
+    > 7E0.22042D
+    NO DATA
+    > 720.222A0C
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412FB5
+  expected_values:
+    FLI: 70.98039
+- response: |-
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 720.222A0A
+    NO DATA
+    > 7E0.22042C
+    NO DATA
+    > 720.222A06
+    NO DATA
+    > 7E0.220433
+    NO DATA
+    > 7E0.220434
+    NO DATA
+    > 720.222A05
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412FAD
+  expected_values:
+    FLI: 67.84314
+- response: |-
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.220415
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F66
+  expected_values:
+    FLI: 40
+- response: |-
+    NO DATA
+    > 7E0.220519
+    NO DATA
+    > 7E0.220432
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F3E
+  expected_values:
+    FLI: 24.31373
+- response: |-
+    NO DATA
+    > 7E0.220522
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F77
+  expected_values:
+    FLI: 46.66667
+- response: |-
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F3E
+  expected_values:
+    FLI: 24.31373
+- response: |-
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F80
+  expected_values:
+    FLI: 50.19608
