@@ -192,6 +192,24 @@ test_cases:
     MAZDA3_FP_LD: 28.36194
 - response: |-
     NO DATA
+    > 7E0.2203DB
+    NO DATA
+    > 793.22D901
+    NO DATA
+    > 7E0.220451
+    NO DATA
+    > 720.222A0B
+    NO DATA
+    > 7E0.220435
+    NO DATA
+    > 720.2261B1
+    NO DATA
+    > 7E0.220307
+    7E805620307489B
+  expected_values:
+    MAZDA3_FP_LD: 28.36194
+- response: |-
+    NO DATA
     > 7E0.220432
     NO DATA
     > 7E0.220415
