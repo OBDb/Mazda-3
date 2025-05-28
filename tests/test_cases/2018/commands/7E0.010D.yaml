@@ -77,6 +77,27 @@ test_cases:
     NO DATA
     > 720.222A0D
     NO DATA
+    > 720.222A07
+    NO DATA
+    > 7E0.220415
+    NO DATA
+    > 720.222A06
+    NO DATA
+    > 7E0.22042D
+    NO DATA
+    > 7E0.2203DF
+    NO DATA
+    > 7E0.220434
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+    7E903410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    NO DATA
+    > 720.222A0D
+    NO DATA
     > 7E0.7E8.010D
     7E803410D00
     7E903410D00
