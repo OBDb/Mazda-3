@@ -28,6 +28,8 @@ supported_commands_by_ecu:
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
   - 0145:TP_R
+  - 7E0.010D:VSS
+  - 7E0.0131:CLR_DIST
 unsupported_commands_by_ecu:
   720:
   - 720.222A05:MAZDA3_TP_1

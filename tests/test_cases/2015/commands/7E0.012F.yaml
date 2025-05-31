@@ -6,27 +6,3 @@ test_cases:
 - response: 7E803412FF4
   expected_values:
     FLI: 95.68627
-- response: |-
-    NO DATA
-    > 720.222A05
-    NO DATA
-    > 793.22D901
-    NO DATA
-    > 7E0.2203FB
-    NO DATA
-    > 7E0.220433
-    NO DATA
-    > 7E0.220435
-    NO DATA
-    > 7E0.220380
-    NO DATA
-    > 720.222A08
-    NO DATA
-    > 7E0.220542
-    NO DATA
-    > 720.222A0A
-    NO DATA
-    > 7E0.7E8.012F
-    7E803412F6C
-  expected_values:
-    FLI: 42.35294

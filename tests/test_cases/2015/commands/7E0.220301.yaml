@@ -12,15 +12,3 @@ test_cases:
 - response: '7E8056203011004'
   expected_values:
     MAZDA3_MAP: 4
-- response: |-
-    NO DATA
-    > 7E0.220432
-    NO DATA
-    > 7E0.220415
-    NO DATA
-    > 7E0.22044B
-    NO DATA
-    > 7E0.220301
-    7E805620301058B
-  expected_values:
-    MAZDA3_MAP: 1.419

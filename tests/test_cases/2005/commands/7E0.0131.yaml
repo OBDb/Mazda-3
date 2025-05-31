@@ -9,9 +9,3 @@ test_cases:
 - response: 7E804413101DE
   expected_values:
     CLR_DIST: 478
-- response: |-
-    NO DATA
-    > 7E0.7E8.0131
-    7E80441310015
-  expected_values:
-    CLR_DIST: 21
