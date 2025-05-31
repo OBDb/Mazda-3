@@ -145,7 +145,9 @@ supported_commands_by_ecu:
   - 7E1.7E9.0105
   - 7E1.7E9.010C
   - 7E1.7E9.010D
+  - 7E1.7E9.010F
   - 7E1.7E9.0131
+  - 7E1.7E9.0142
 unsupported_commands_by_ecu:
   720:
   - 720.222A05:MAZDA3_TP_1
@@ -181,6 +183,5 @@ unsupported_commands_by_ecu:
   - 7E0.220522:MAZDA3_FUEL_T
   - 7E0.220542:MAZDA3_OIL_CHANGE_DIST_MAX
   7E1:
-  - 7E1.7E9.010F
   - 7E1.7E9.0111
   - 7E1.7E9.0149
