@@ -1,6 +1,6 @@
 command_id: 7E0.0103
 test_cases:
-- response: '7E80441030200'
-  expected_values:
+- expected_values:
     FUELSYS1: CL
     FUELSYS2: 'OFF'
+  response: '7E80441030200'

@@ -1,5 +1,5 @@
 command_id: 7E0.010A
 test_cases:
-- response: 7E803410A86
-  expected_values:
+- expected_values:
     FP: 402
+  response: 7E803410A86

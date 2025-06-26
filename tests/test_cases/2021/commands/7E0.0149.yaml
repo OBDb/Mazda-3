@@ -1,5 +1,5 @@
 command_id: 7E0.0149
 test_cases:
-- response: '7E803414928'
-  expected_values:
+- expected_values:
     APP_D: 15.68627
+  response: '7E803414928'
