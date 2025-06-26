@@ -1,7 +1,6 @@
 command_id: 7E0.0101
 test_cases:
-- response: 7E80641010007E100
-  expected_values:
+- expected_values:
     ACRF_RDY: 0
     ACRF_SUP: 0
     AIR_RDY: 0
@@ -27,3 +26,4 @@ test_cases:
     MIS_SUP: 1
     O2S_RDY: 0
     O2S_SUP: 1
+  response: 7E80641010007E100

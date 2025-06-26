@@ -1,7 +1,6 @@
 command_id: 7E0.0141
 test_cases:
-- response: '7E806414100076161'
-  expected_values:
+- expected_values:
     ACRFCMPL: 0
     ACRF_ENA: 0
     AIR_CMPL: 0
@@ -25,3 +24,4 @@ test_cases:
     MIS_ENA: 1
     O2S_CMPL: 1
     O2S_ENA: 1
+  response: '7E806414100076161'
