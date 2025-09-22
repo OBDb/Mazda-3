@@ -1,0 +1,32 @@
+command_id: 7E0.016C
+test_cases:
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 12.94118
+    TAC_B_CMD: 0
+    TP_A_REL: 10.58824
+    TP_B_REL: 0
+  response: 7E807416C03211B0000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 16.86275
+    TAC_B_CMD: 0
+    TP_A_REL: 13.72549
+    TP_B_REL: 0
+  response: 7E807416C032B230000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 19.21569
+    TAC_B_CMD: 0
+    TP_A_REL: 15.68627
+    TP_B_REL: 0
+  response: 7E807416C0331280000

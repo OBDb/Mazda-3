@@ -1,0 +1,5 @@
+command_id: 7E0.0102
+test_cases:
+- expected_values:
+    DTCFRZF: 0
+  response: '7E80441020000'

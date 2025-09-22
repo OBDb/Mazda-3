@@ -1,0 +1,18 @@
+command_id: 726.22D929
+test_cases:
+- expected_values:
+    3_TT_RR: 29
+  response: |-
+    22D9291
+    72E0462D9294F
+- expected_values:
+    3_TT_RR: 32
+  response: |-
+    22D9291
+    72E0462D92952
+- expected_values:
+    3_TT_RR: 11
+  response: 72E0462D9293D
+- expected_values:
+    3_TT_RR: 40
+  response: 72E0462D9295A

@@ -1,0 +1,14 @@
+command_id: 7E0.0159
+test_cases:
+- expected_values:
+    FRP_ABS: 3130
+  response: '7E80441590139'
+- expected_values:
+    FRP_ABS: 5110
+  response: 7E804415901FF
+- expected_values:
+    FRP_ABS: 5150
+  response: '7E80441590203'
+- expected_values:
+    FRP_ABS: 16220
+  response: '7E80441590656'
