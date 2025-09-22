@@ -1,14 +1,20 @@
 command_id: 7E0.220415
 test_cases:
 - expected_values:
-    MAZDA3_EOP: 145
-  response: '7E8056204150091'
+    MAZDA3_EOP: 142
+  response: '7E8 05 62 04 15 00 8E '
 - expected_values:
-    MAZDA3_EOP: 147
-  response: '7E8056204150093'
+    MAZDA3_EOP: 146
+  response: '7E8 05 62 04 15 00 92 '
 - expected_values:
-    MAZDA3_EOP: 148
-  response: '7E8056204150094'
+    MAZDA3_EOP: 182
+  response: '7E8 05 62 04 15 00 B6 '
 - expected_values:
-    MAZDA3_EOP: 150
-  response: '7E8056204150096'
+    MAZDA3_EOP: 111
+  response: 7E805620415006F
+- expected_values:
+    MAZDA3_EOP: 255
+  response: 7E80562041500FF
+- expected_values:
+    MAZDA3_EOP: 256
+  response: '7E8056204150100'
