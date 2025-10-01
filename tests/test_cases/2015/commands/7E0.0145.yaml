@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TP_R: 7.45098
   response: '7E803414513'
+- expected_values:
+    TP_R: 12.15686
+  response: 7E80341451F

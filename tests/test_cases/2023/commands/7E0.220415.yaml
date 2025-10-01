@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MAZDA3_EOP: 252
   response: 7E80562041500FC
+- expected_values:
+    MAZDA3_EOP: 267
+  response: 7E805620415010B
