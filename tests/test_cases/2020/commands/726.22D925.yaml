@@ -1,8 +1,8 @@
 command_id: 726.22D925
 test_cases:
 - expected_values:
-    3_TP_RR: 36.6
-  response: 72E0462D925B7
+    3_TP_RR: 36.2
+  response: 72E0462D925B5
 - expected_values:
     3_TP_RR: 42.6
   response: 72E0462D925D5
