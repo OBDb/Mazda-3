@@ -1,8 +1,8 @@
 command_id: 726.22D922
 test_cases:
 - expected_values:
-    3_TP_FL: 35.6
-  response: 72E0462D922B2
+    3_TP_FL: 33.2
+  response: 72E0462D922A6
 - expected_values:
     3_TP_FL: 43.4
   response: 72E0462D922D9
