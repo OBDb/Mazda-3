@@ -1,0 +1,8 @@
+command_id: 726.22D923
+test_cases:
+- expected_values:
+    3_TP_FR: 30.8
+  response: 72E0462D9239A
+- expected_values:
+    3_TP_FR: 35.2
+  response: 72E0462D923B0

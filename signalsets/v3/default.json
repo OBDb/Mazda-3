@@ -49,35 +49,35 @@
     {"id": "3_TIRE_RL_TEMP", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 200, "mul": 1.8, "add": -58, "unit": "fahrenheit" }, "name": "Rear left tire temperature"},
     {"id": "3_TIRE_RR_TEMP", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 200, "mul": 1.8, "add": -58, "unit": "fahrenheit" }, "name": "Rear right tire temperature"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D922"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D922"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D923"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D923"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D924"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D924"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D925"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D925"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D926"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D926"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front left temperature"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D927"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D927"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front right temperature"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D928"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D928"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear left temperature"}
   ]},
-{ "hdr": "726", "cmd": {"22": "D929"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018, 2023], "from": 2025 },
+{ "hdr": "726", "cmd": {"22": "D929"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2013, 2016, 2017, 2018], "from": 2025 },
   "signals": [
     {"id": "3_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear right temperature"}
   ]},
