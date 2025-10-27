@@ -1,0 +1,32 @@
+command_id: 726.22D922
+test_cases:
+- expected_values:
+    3_TP_FL: 31.6
+  response: 72E0462D9229E
+- expected_values:
+    3_TP_FL: 31.8
+  response: 72E0462D9229F
+- expected_values:
+    3_TP_FL: 32.2
+  response: 72E0462D922A1
+- expected_values:
+    3_TP_FL: 32.4
+  response: 72E0462D922A2
+- expected_values:
+    3_TP_FL: 32.6
+  response: 72E0462D922A3
+- expected_values:
+    3_TP_FL: 34.6
+  response: 72E0462D922AD
+- expected_values:
+    3_TP_FL: 35
+  response: 72E0462D922AF
+- expected_values:
+    3_TP_FL: 35.2
+  response: 72E0462D922B0
+- expected_values:
+    3_TP_FL: 36.2
+  response: 72E0462D922B5
+- expected_values:
+    3_TP_FL: 36.4
+  response: 72E0462D922B6
