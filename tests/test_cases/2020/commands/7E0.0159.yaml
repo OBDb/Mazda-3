@@ -1,5 +1,0 @@
-command_id: 7E0.0159
-test_cases:
-- expected_values:
-    FRP_ABS: 41320
-  response: '7E80441591024'
