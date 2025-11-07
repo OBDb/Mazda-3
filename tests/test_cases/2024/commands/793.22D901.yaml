@@ -1,0 +1,5 @@
+command_id: 793.22D901
+test_cases:
+- expected_values:
+    MAZDA3_CC_TGT_DIST: 16
+  response: '7E8 05 62 D9 01 00 40 '

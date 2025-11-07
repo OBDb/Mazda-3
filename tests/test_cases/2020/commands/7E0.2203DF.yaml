@@ -1,0 +1,11 @@
+command_id: 7E0.2203DF
+test_cases:
+- expected_values:
+    MAZDA3_VGT_OPEN_PERC: 0
+  response: 7E8056203DF0000
+- expected_values:
+    MAZDA3_VGT_OPEN_PERC: 19.13939
+  response: 7E8056203DF30FF
+- expected_values:
+    MAZDA3_VGT_OPEN_PERC: 100
+  response: 7E8056203DFFFFF
