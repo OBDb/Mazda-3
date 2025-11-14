@@ -7,11 +7,8 @@ test_cases:
     IAT_12_SUP: 1
     IAT_13: 56
     IAT_13_SUP: 1
-    IAT_21: -40
     IAT_21_SUP: 0
-    IAT_22: -40
     IAT_22_SUP: 0
-    IAT_23: -40
     IAT_23_SUP: 0
   response: |-
     7E81009416807426E60
@@ -23,11 +20,8 @@ test_cases:
     IAT_12_SUP: 1
     IAT_13: 57
     IAT_13_SUP: 1
-    IAT_21: -40
     IAT_21_SUP: 0
-    IAT_22: -40
     IAT_22_SUP: 0
-    IAT_23: -40
     IAT_23_SUP: 0
   response: |-
     7E81009416807446E61
