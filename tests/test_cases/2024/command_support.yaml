@@ -15,8 +15,10 @@ supported_commands_by_ecu:
   - 793.22D901:MAZDA3_CC_TGT_DIST
   "7DF":
   - 7DF.0104
+  - 7DF.0105
   - 7DF.010D
   - 7DF.010F
+  - 7DF.0110
   - 7DF.012F
   - 7DF.0131
   - 7DF.0142
