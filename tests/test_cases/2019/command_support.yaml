@@ -12,6 +12,7 @@ supported_commands_by_ecu:
   - 726.22D928:3_TT_RL
   - 726.22D929:3_TT_RR
   "7DF":
+  - 7DF.0105
   - 7DF.010D
   - 7DF.011F
   - 7DF.012F
