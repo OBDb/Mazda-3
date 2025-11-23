@@ -12,11 +12,16 @@ supported_commands_by_ecu:
   - 726.22D928:3_TT_RL
   - 726.22D929:3_TT_RR
   "7DF":
+  - 7DF.0104
   - 7DF.0105
+  - 7DF.0106
   - 7DF.010D
   - 7DF.011F
   - 7DF.012F
   - 7DF.0131
+  - 7DF.0134
+  - 7DF.0144
+  - 7DF.0146
   - 7DF.0149
   - 7DF.01A6
   "7E0":
@@ -188,3 +193,6 @@ unsupported_commands_by_ecu:
   - 7E0.220519:MAZDA3_OIL_CHANGE_DIST
   - 7E0.220522:MAZDA3_FUEL_T
   - 7E0.220542:MAZDA3_OIL_CHANGE_DIST_MAX
+  "7E1":
+  - 7E1.7E9.0104
+  - 7E1.7E9.0105
