@@ -4,8 +4,8 @@ test_cases:
     3_TP_RL: 50.8
   response: '72E 04 62 D9 24 FE '
 - expected_values:
-    3_TP_RL: 26.6
-  response: 72E0462D92485
+    3_TP_RL: 25.8
+  response: 72E0462D92481
 - expected_values:
     3_TP_RL: 50.8
   response: 72E0462D924FE
