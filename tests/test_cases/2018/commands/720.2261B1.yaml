@@ -22,5 +22,11 @@ test_cases:
     MAZDA3_FUEL_LEVEL: 40
   response: 728046261B128
 - expected_values:
+    MAZDA3_FUEL_LEVEL: 45
+  response: 728046261B12D
+- expected_values:
+    MAZDA3_FUEL_LEVEL: 47
+  response: 728046261B12F
+- expected_values:
     MAZDA3_FUEL_LEVEL: 48
   response: 728046261B130
