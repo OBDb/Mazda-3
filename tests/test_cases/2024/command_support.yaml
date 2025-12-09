@@ -21,6 +21,7 @@ supported_commands_by_ecu:
   - 7DF.0110
   - 7DF.012F
   - 7DF.0131
+  - 7DF.0134
   - 7DF.0142
   - 7DF.0146
   - 7DF.015B
