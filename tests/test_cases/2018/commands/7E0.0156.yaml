@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LGSO2FT1: 0
   response: '7E803415680'
+- expected_values:
+    LGSO2FT1: 0.78125
+  response: '7E803415681'
