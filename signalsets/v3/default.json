@@ -93,7 +93,7 @@
   "signals": [
     {"id": "MAZDA3_EGR_OPEN_MM", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "millimeters" }, "name": "Exhaust gas recirculation open", "description": "Monitors the physical position of the EGR valve, which controls the amount of exhaust gas being recirculated back into the engine's intake system."}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2017], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2017], "from": 2025 },
   "signals": [
     {"id": "MAZDA3_FP_LD", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Fuel pump load"}
   ]},
@@ -165,7 +165,7 @@
   "signals": [
     {"id": "MAZDA3_OIL_CHANGE_DIST_MAX", "path": "Fluids", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Max distance to oil change"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "1310"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2017], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "1310"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2017], "from": 2025 },
   "signals": [
     {"id": "MAZDA3_EOT", "path": "Engine", "fmt": { "len": 16, "max": 615.35, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]}
