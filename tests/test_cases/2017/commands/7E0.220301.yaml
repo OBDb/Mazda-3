@@ -7,5 +7,5 @@ test_cases:
     MAZDA3_MAP: 1.275
   response: 7E80562030104FB
 - expected_values:
-    MAZDA3_MAP: 1.379
-  response: '7E8056203010563'
+    MAZDA3_MAP: 1.315
+  response: '7E8056203010523'
