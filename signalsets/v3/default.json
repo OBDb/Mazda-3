@@ -1,17 +1,17 @@
 { "commands": [
-{ "hdr": "720", "cmd": {"22": "2A05"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013], "from": 2019 },
+{ "hdr": "720", "cmd": {"22": "2A05"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013], "from": 2019 },
   "signals": [
     {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 1 pressure"}
   ]},
-{ "hdr": "720", "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013], "from": 2019 },
+{ "hdr": "720", "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013], "from": 2019 },
   "signals": [
     {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 2 pressure"}
   ]},
-{ "hdr": "720", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013], "from": 2019 },
+{ "hdr": "720", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013], "from": 2019 },
   "signals": [
     {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 3 pressure"}
   ]},
-{ "hdr": "720", "cmd": {"22": "2A08"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013], "from": 2019 },
+{ "hdr": "720", "cmd": {"22": "2A08"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013], "from": 2019 },
   "signals": [
     {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 4 pressure"}
   ]},
@@ -31,7 +31,7 @@
   "signals": [
     {"id": "MAZDA3_TT_4", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 4 temperature"}
   ]},
-{ "hdr": "720", "cmd": {"22": "61B1"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013], "from": 2025 },
+{ "hdr": "720", "cmd": {"22": "61B1"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013], "from": 2025 },
   "signals": [
     {"id": "MAZDA3_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55, "unit": "liters" }, "name": "Fuel level"}
   ]},
