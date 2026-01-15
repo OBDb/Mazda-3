@@ -1,8 +1,8 @@
 command_id: 7E0.015B
 test_cases:
 - expected_values:
-    BAT_SOC: 29.41176
-  response: 7E803415B4B
+    BAT_SOC: 27.45098
+  response: 7E803415B46
 - expected_values:
     BAT_SOC: 79.21569
   response: 7E803415BCA
