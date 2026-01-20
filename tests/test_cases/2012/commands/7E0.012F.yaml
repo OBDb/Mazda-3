@@ -4,5 +4,5 @@ test_cases:
     FLI: 27.05882
   response: 7E803412F45
 - expected_values:
-    FLI: 85.4902
-  response: 7E803412FDA
+    FLI: 96.86275
+  response: 7E803412FF7
