@@ -1,8 +1,8 @@
 command_id: 7E0.0159
 test_cases:
 - expected_values:
-    FRP_ABS: 3130
-  response: '7E80441590139'
+    FRP_ABS: 3100
+  response: '7E80441590136'
 - expected_values:
     FRP_ABS: 5110
   response: 7E804415901FF
