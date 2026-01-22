@@ -7,5 +7,5 @@ test_cases:
     MIL_DIST: 979
   response: 7E804412103D3
 - expected_values:
-    MIL_DIST: 12239
-  response: 7E80441212FCF
+    MIL_DIST: 13217
+  response: 7E804412133A1
