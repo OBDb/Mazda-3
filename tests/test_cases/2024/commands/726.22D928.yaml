@@ -11,8 +11,8 @@ test_cases:
     22D9281
     72E0462D92852
 - expected_values:
-    3_TT_RL: -13
-  response: 72E0462D92825
+    3_TT_RL: -14
+  response: 72E0462D92824
 - expected_values:
     3_TT_RL: 40
   response: 72E0462D9285A
