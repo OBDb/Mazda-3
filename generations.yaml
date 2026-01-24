@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mazda3"
+
 generations:
   - name: "First Generation (BK)"
     start_year: 2003
