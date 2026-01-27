@@ -3,6 +3,18 @@ test_cases:
 - expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
+    HEV_BATT_A: 6.8
+    HEV_BATT_A_SUP: 1
+    HEV_BATT_V: 22.15625
+    HEV_BATT_V_SUP: 1
+    HEV_MODE: CSM
+    HEV_MODE_SUP: 1
+  response: |-
+    7E81008419A0F00058A
+    7E82100440000000000
+- expected_values:
+    EHEV_MODE: CSM
+    EHEV_MODE_SUP: 1
     HEV_BATT_A: 8.4
     HEV_BATT_A_SUP: 1
     HEV_BATT_V: 22.1875
@@ -24,3 +36,15 @@ test_cases:
   response: |-
     7E81008419A0F00058C
     7E821FF460000000000
+- expected_values:
+    EHEV_MODE: CSM
+    EHEV_MODE_SUP: 1
+    HEV_BATT_A: -6.1
+    HEV_BATT_A_SUP: 1
+    HEV_BATT_V: 22.21875
+    HEV_BATT_V_SUP: 1
+    HEV_MODE: CSM
+    HEV_MODE_SUP: 1
+  response: |-
+    7E81008419A0F00058E
+    7E821FFC30000000000
