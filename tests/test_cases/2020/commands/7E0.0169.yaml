@@ -16,3 +16,99 @@ test_cases:
   response: |-
     7E81009416907000080
     7E82100000000000000
+- expected_values:
+    EGR_A_ACT: 0
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 6.66667
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: -100
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 0
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 0
+    EGR_B_ERR: -100
+    EGR_B_ERR_SUP: 0
+  response: |-
+    7E81009416907110000
+    7E82100000000000000
+- expected_values:
+    EGR_A_ACT: 1.56863
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 11.76471
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: -88.28125
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 0
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 0
+    EGR_B_ERR: -100
+    EGR_B_ERR_SUP: 0
+  response: |-
+    7E810094169071E040F
+    7E82100000000000000
+- expected_values:
+    EGR_A_ACT: 19.21569
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 21.56863
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: -10.9375
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 0
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 0
+    EGR_B_ERR: -100
+    EGR_B_ERR_SUP: 0
+  response: |-
+    7E81009416907373172
+    7E82100000000000000
+- expected_values:
+    EGR_A_ACT: 24.70588
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 27.45098
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: -10.15625
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 0
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 0
+    EGR_B_ERR: -100
+    EGR_B_ERR_SUP: 0
+  response: |-
+    7E81009416907463F73
+    7E82100000000000000
+- expected_values:
+    EGR_A_ACT: 41.96078
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 41.96078
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: 0
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 0
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 0
+    EGR_B_ERR: -100
+    EGR_B_ERR_SUP: 0
+  response: |-
+    7E810094169076B6B80
+    7E82100000000000000
+- expected_values:
+    EGR_A_ACT: 49.80392
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 51.37255
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: -3.90625
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 0
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 0
+    EGR_B_ERR: -100
+    EGR_B_ERR_SUP: 0
+  response: |-
+    7E81009416907837F7B
+    7E82100000000000000
