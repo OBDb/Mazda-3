@@ -15,6 +15,18 @@ test_cases:
 - expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
+    HEV_BATT_A: -0.4
+    HEV_BATT_A_SUP: 1
+    HEV_BATT_V: 22.15625
+    HEV_BATT_V_SUP: 1
+    HEV_MODE: CSM
+    HEV_MODE_SUP: 1
+  response: |-
+    7E81008419A0F00058A
+    7E821FFFC0000000000
+- expected_values:
+    EHEV_MODE: CSM
+    EHEV_MODE_SUP: 1
     HEV_BATT_A: 8.4
     HEV_BATT_A_SUP: 1
     HEV_BATT_V: 22.1875
