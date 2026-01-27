@@ -165,6 +165,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.010F
+  - 7E1.7E9.0111
   - 7E1.7E9.0121
   - 7E1.7E9.0130
   - 7E1.7E9.0131
@@ -205,5 +206,4 @@ unsupported_commands_by_ecu:
   - 7E0.220519:MAZDA3_OIL_CHANGE_DIST
   - 7E0.220542:MAZDA3_OIL_CHANGE_DIST_MAX
   "7E1":
-  - 7E1.7E9.0111
   - 7E1.7E9.0149
