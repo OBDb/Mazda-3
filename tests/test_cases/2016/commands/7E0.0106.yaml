@@ -1,8 +1,8 @@
 command_id: 7E0.0106
 test_cases:
 - expected_values:
-    SHRTFT1: -2.34375
-  response: 7E80341067D
+    SHRTFT1: -7.03125
+  response: '7E803410677'
 - expected_values:
-    SHRTFT1: 8.59375
-  response: 7E80341068B
+    SHRTFT1: 10.9375
+  response: 7E80341068E
