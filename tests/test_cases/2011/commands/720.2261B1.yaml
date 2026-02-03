@@ -1,6 +1,15 @@
 command_id: 720.2261B1
 test_cases:
 - expected_values:
+    MAZDA3_FUEL_LEVEL: 34
+  response: "2261B1\n728 04 62 61 B1 22 "
+- expected_values:
+    MAZDA3_FUEL_LEVEL: 34
+  response: '728 04 62 61 B1 22 '
+- expected_values:
+    MAZDA3_FUEL_LEVEL: 34
+  response: 728046261B122
+- expected_values:
     MAZDA3_FUEL_LEVEL: 37
   response: 728046261B125
 - expected_values:
