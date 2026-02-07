@@ -4,5 +4,5 @@ test_cases:
     3_TT_FL: -17
   response: 72E0462D92621
 - expected_values:
-    3_TT_FL: 45
-  response: 72E0462D9265F
+    3_TT_FL: 204
+  response: 72E0462D926FE
