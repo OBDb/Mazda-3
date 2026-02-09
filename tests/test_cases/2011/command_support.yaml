@@ -123,6 +123,8 @@ unsupported_commands_by_ecu:
   - 726.22D929:3_TT_RR
   "793":
   - 793.22D901:MAZDA3_CC_TGT_DIST
+  "7DF":
+  - 7DF.0142
   "7E0":
   - 7E0.220306:MAZDA3_EGR_OPEN_MM
   - 7E0.220307:MAZDA3_FP_LD
