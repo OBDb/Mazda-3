@@ -7,6 +7,9 @@ test_cases:
     MAZDA3_FUEL_LEVEL: 34
   response: '728 04 62 61 B1 22 '
 - expected_values:
+    MAZDA3_FUEL_LEVEL: 38
+  response: '728 04 62 61 B1 26 '
+- expected_values:
     MAZDA3_FUEL_LEVEL: 29
   response: 728046261B11D
 - expected_values:

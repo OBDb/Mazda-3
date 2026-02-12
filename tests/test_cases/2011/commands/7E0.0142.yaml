@@ -6,6 +6,9 @@ test_cases:
     0142
     7E80441423557
 - expected_values:
+    VPWR: 13.575
+  response: '7E8 04 41 42 35 07 '
+- expected_values:
     VPWR: 12.304
   response: '7E80441423010'
 - expected_values:
