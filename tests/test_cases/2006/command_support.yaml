@@ -32,11 +32,6 @@ supported_commands_by_ecu:
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
   - 0145:TP_R
-  - 0146:AAT
-  - 0147:TP_B
-  - 0149:APP_D
-  - 014A:APP_E
-  - 014C:TAC_PCT
 unsupported_commands_by_ecu:
   "720":
   - 720.222A05:MAZDA3_TP_1
