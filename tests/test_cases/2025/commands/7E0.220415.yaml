@@ -1,0 +1,8 @@
+command_id: 7E0.220415
+test_cases:
+- expected_values:
+    MAZDA3_EOP: 146
+  response: '7E8056204150092'
+- expected_values:
+    MAZDA3_EOP: 174
+  response: 7E80562041500AE

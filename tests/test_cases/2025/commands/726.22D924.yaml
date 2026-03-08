@@ -1,0 +1,5 @@
+command_id: 726.22D924
+test_cases:
+- expected_values:
+    3_TP_RL: 35.6
+  response: 72E0462D924B2
