@@ -81,7 +81,7 @@
   "signals": [
     {"id": "3_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear right temperature"}
   ]},
-{ "hdr": "793", "cmd": {"22": "D901"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "793", "cmd": {"22": "D901"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "MAZDA3_CC_TGT_DIST", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 63.75, "div": 4, "unit": "meters" }, "name": "Distance from bumper to target"}
   ]},
