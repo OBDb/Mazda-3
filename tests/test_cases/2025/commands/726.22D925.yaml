@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     3_TP_RR: 35.8
   response: 72E0462D925B3
+- expected_values:
+    3_TP_RR: 36.2
+  response: 72E0462D925B5
+- expected_values:
+    3_TP_RR: 36.6
+  response: 72E0462D925B7
+- expected_values:
+    3_TP_RR: 36.8
+  response: 72E0462D925B8
+- expected_values:
+    3_TP_RR: 37.2
+  response: 72E0462D925BA
