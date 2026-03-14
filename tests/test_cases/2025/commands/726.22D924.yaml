@@ -1,26 +1,8 @@
 command_id: 726.22D924
 test_cases:
 - expected_values:
-    3_TP_RL: 35.4
-  response: 72E0462D924B1
-- expected_values:
-    3_TP_RL: 35.6
-  response: 72E0462D924B2
-- expected_values:
-    3_TP_RL: 36
-  response: 72E0462D924B4
-- expected_values:
-    3_TP_RL: 36.2
-  response: 72E0462D924B5
-- expected_values:
-    3_TP_RL: 36.6
-  response: 72E0462D924B7
-- expected_values:
-    3_TP_RL: 36.8
-  response: 72E0462D924B8
-- expected_values:
-    3_TP_RL: 37
-  response: 72E0462D924B9
+    3_TP_RL: 35.2
+  response: 72E0462D924B0
 - expected_values:
     3_TP_RL: 37.2
   response: 72E0462D924BA
