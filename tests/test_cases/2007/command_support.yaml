@@ -1,6 +1,7 @@
 model_year: 2007
 supported_commands_by_ecu:
   "7DF":
+  - 7DF.0106
   - 7DF.012F
   - 7DF.0144
   "7E0":
