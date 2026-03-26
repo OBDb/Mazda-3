@@ -1,0 +1,6 @@
+command_id: 720.22C901
+test_cases:
+- expected_values:
+    3_TIRE_FL_PRESSURE: 0
+    3_TIRE_FR_PRESSURE: 15.73181
+  response: 7E80562C901004F

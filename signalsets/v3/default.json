@@ -35,14 +35,14 @@
   "signals": [
     {"id": "MAZDA3_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55, "unit": "liters" }, "name": "Fuel level"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "C901"}, "freq": 1,
+{ "hdr": "720", "cmd": {"22": "C901"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "3_TIRE_FL_PRESSURE", "path": "Tires", "fmt": {           "len": 8, "max": 50, "mul": 0.1991368143, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "3_TIRE_FR_PRESSURE", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 50, "mul": 0.1991368143, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "3_TIRE_RL_PRESSURE", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 50, "mul": 0.1991368143, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "3_TIRE_RR_PRESSURE", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 50, "mul": 0.1991368143, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "C902"}, "freq": 1,
+{ "hdr": "720", "cmd": {"22": "C902"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "3_TIRE_FL_TEMP", "path": "Tires", "fmt": {           "len": 8, "max": 200, "mul": 1.8, "add": -58, "unit": "fahrenheit" }, "name": "Front left tire temperature"},
     {"id": "3_TIRE_FR_TEMP", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 200, "mul": 1.8, "add": -58, "unit": "fahrenheit" }, "name": "Front right tire temperature"},
