@@ -1,0 +1,6 @@
+command_id: 720.22C902
+test_cases:
+- expected_values:
+    3_TIRE_FL_TEMP: 0
+    3_TIRE_FR_TEMP: 0
+  response: 7E80562C9020004
