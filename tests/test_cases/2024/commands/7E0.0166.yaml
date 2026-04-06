@@ -13,8 +13,8 @@ test_cases:
     MAFB_SUP: 0
   response: 7E80741660100FF0000
 - expected_values:
-    MAFA: 160.84375
+    MAFA: 197
     MAFA_SUP: 1
     MAFB: 0
     MAFB_SUP: 0
-  response: 7E807416601141B0000
+  response: 7E80741660118A00000
