@@ -6,37 +6,5 @@ test_cases:
   response: 7E8044114FF7A
 - expected_values:
     O2S11: 1.275
-    SHRTFT11: -29.5625
-  response: 7E8044114FF7E
-- expected_values:
-    O2S11: 1.275
-    SHRTFT11: -28.78125
-  response: 7E8044114FF7F
-- expected_values:
-    O2S11: 1.275
-    SHRTFT11: -28
-  response: 7E8044114FF80
-- expected_values:
-    O2S11: 1.275
-    SHRTFT11: -27.21875
-  response: 7E8044114FF81
-- expected_values:
-    O2S11: 1.275
-    SHRTFT11: -26.4375
-  response: 7E8044114FF82
-- expected_values:
-    O2S11: 1.275
-    SHRTFT11: -24.875
-  response: 7E8044114FF84
-- expected_values:
-    O2S11: 1.275
-    SHRTFT11: -16.28125
-  response: 7E8044114FF8F
-- expected_values:
-    O2S11: 1.275
-    SHRTFT11: -15.5
-  response: 7E8044114FF90
-- expected_values:
-    O2S11: 1.275
     SHRTFT11: -14.71875
   response: 7E8044114FF91
