@@ -183,7 +183,10 @@ unsupported_commands_by_ecu:
   "793":
   - 793.22D901:MAZDA3_CC_TGT_DIST
   "7DF":
+  - 7DF.0134
   - 7DF.0143
+  - 7DF.0144
+  - 7DF.01A6
   "7E0":
   - 7E0.220306:MAZDA3_EGR_OPEN_MM
   - 7E0.220380:MAZDA3_DPF_REGEN
