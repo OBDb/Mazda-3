@@ -19,5 +19,14 @@ test_cases:
     3_TP_RR: 34
   response: 72E0462D925AA
 - expected_values:
+    3_TP_RR: 34.2
+  response: 72E0462D925AB
+- expected_values:
+    3_TP_RR: 34.4
+  response: 72E0462D925AC
+- expected_values:
+    3_TP_RR: 34.6
+  response: 72E0462D925AD
+- expected_values:
     3_TP_RR: 36
   response: 72E0462D925B4

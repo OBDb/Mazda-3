@@ -16,5 +16,14 @@ test_cases:
     3_TT_FL: 27
   response: 72E0462D9264D
 - expected_values:
+    3_TT_FL: 28
+  response: 72E0462D9264E
+- expected_values:
+    3_TT_FL: 29
+  response: 72E0462D9264F
+- expected_values:
+    3_TT_FL: 30
+  response: 72E0462D92650
+- expected_values:
     3_TT_FL: 42
   response: 72E0462D9265C
