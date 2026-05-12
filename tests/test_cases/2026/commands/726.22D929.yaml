@@ -13,5 +13,8 @@ test_cases:
     3_TT_RR: 24
   response: 72E0462D9294A
 - expected_values:
+    3_TT_RR: 29
+  response: 72E0462D9294F
+- expected_values:
     3_TT_RR: 37
   response: 72E0462D92957
