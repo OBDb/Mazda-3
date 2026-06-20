@@ -1,6 +1,11 @@
 command_id: 726.22D923
 test_cases:
 - expected_values:
+    3_TP_FR: 37.4
+  response: |-
+    22D923
+    72E0462D923BB
+- expected_values:
     3_TP_FR: 40.8
   response: |-
     22D9231
