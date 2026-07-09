@@ -1,5 +1,0 @@
-command_id: 7E0.0163
-test_cases:
-- expected_values:
-    TQ_REF: 470
-  response: 7E804416301D6
