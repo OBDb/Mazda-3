@@ -1,0 +1,5 @@
+command_id: 7E0.018E
+test_cases:
+- expected_values:
+    TQ_FR: 6
+  response: 7E803418E83
