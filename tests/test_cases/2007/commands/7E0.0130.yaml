@@ -1,0 +1,32 @@
+command_id: 7E0.0130
+test_cases:
+- expected_values:
+    WARM_UPS: 0
+  response: '7E803413000'
+- expected_values:
+    WARM_UPS: 14
+  response: 7E80341300E
+- expected_values:
+    WARM_UPS: 21
+  response: '7E803413015'
+- expected_values:
+    WARM_UPS: 115
+  response: '7E803413073'
+- expected_values:
+    WARM_UPS: 116
+  response: '7E803413074'
+- expected_values:
+    WARM_UPS: 118
+  response: '7E803413076'
+- expected_values:
+    WARM_UPS: 130
+  response: '7E803413082'
+- expected_values:
+    WARM_UPS: 157
+  response: 7E80341309D
+- expected_values:
+    WARM_UPS: 183
+  response: 7E8034130B7
+- expected_values:
+    WARM_UPS: 201
+  response: 7E8034130C9
