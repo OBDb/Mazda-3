@@ -1,0 +1,26 @@
+command_id: 7E0.221310
+test_cases:
+- expected_values:
+    MAZDA3_EOT: 96.28
+  response: '7E8 05 62 13 10 35 3C '
+- expected_values:
+    MAZDA3_EOT: 96.32
+  response: '7E8 05 62 13 10 35 40 '
+- expected_values:
+    MAZDA3_EOT: 97.1
+  response: '7E8 05 62 13 10 35 8E '
+- expected_values:
+    MAZDA3_EOT: 97.88
+  response: '7E8 05 62 13 10 35 DC '
+- expected_values:
+    MAZDA3_EOT: 21.47
+  response: '7E8056213101803'
+- expected_values:
+    MAZDA3_EOT: 26.56
+  response: 7E8056213101A00
+- expected_values:
+    MAZDA3_EOT: 47.03
+  response: 7E80562131021FF
+- expected_values:
+    MAZDA3_EOT: 111.07
+  response: 7E8056213103B03

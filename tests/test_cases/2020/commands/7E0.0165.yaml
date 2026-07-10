@@ -1,0 +1,14 @@
+command_id: 7E0.0165
+test_cases:
+- expected_values:
+    GEAR_RCMD: 0
+    GEAR_SUP: 1
+    GPL_STAT: 0
+    GPL_SUP: 0
+    N/D_STAT: 0
+    N/D_SUP: 0
+    N/G_STAT: 0
+    N/G_SUP: 0
+    PTO_STAT_AUX: 0
+    PTO_SUP: 0
+  response: '7E80441651000'
