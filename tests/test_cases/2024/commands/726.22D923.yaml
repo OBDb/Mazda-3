@@ -6,6 +6,11 @@ test_cases:
     22D923
     72E0462D923BB
 - expected_values:
+    3_TP_FR: 40.6
+  response: |-
+    22D923
+    72E0462D923CB
+- expected_values:
     3_TP_FR: 40.8
   response: |-
     22D9231
