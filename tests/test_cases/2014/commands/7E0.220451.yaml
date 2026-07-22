@@ -1,0 +1,29 @@
+command_id: 7E0.220451
+test_cases:
+- expected_values:
+    MAZDA3_OXY: 47.05882
+  response: '7E80462045178'
+- expected_values:
+    MAZDA3_OXY: 50.19608
+  response: '7E80462045180'
+- expected_values:
+    MAZDA3_OXY: 50.98039
+  response: '7E80462045182'
+- expected_values:
+    MAZDA3_OXY: 54.5098
+  response: 7E8046204518B
+- expected_values:
+    MAZDA3_OXY: 54.90196
+  response: 7E8046204518C
+- expected_values:
+    MAZDA3_OXY: 55.29412
+  response: 7E8046204518D
+- expected_values:
+    MAZDA3_OXY: 55.68627
+  response: 7E8046204518E
+- expected_values:
+    MAZDA3_OXY: 56.07843
+  response: 7E8046204518F
+- expected_values:
+    MAZDA3_OXY: 56.47059
+  response: '7E80462045190'

@@ -1,0 +1,5 @@
+command_id: 7E0.220435
+test_cases:
+- expected_values:
+    MAZDA3_OIL_DIL_CNT: 0
+  response: '7E80462043500'

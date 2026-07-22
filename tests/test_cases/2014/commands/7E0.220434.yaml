@@ -1,0 +1,5 @@
+command_id: 7E0.220434
+test_cases:
+- expected_values:
+    MAZDA3_DPF_REGEN_DIST: 6.0853
+  response: 7E80762043400000F94
