@@ -1,0 +1,5 @@
+command_id: 7E0.2203FB
+test_cases:
+- expected_values:
+    MAZDA3_EGR_OPEN_PERC: 0
+  response: 7E8046203FB00

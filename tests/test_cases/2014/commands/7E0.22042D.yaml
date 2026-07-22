@@ -1,0 +1,8 @@
+command_id: 7E0.22042D
+test_cases:
+- expected_values:
+    MAZDA3_DPF_PM_GEN: 0.08698
+  response: 7E80562042D0039
+- expected_values:
+    MAZDA3_DPF_PM_GEN: 0.10986
+  response: 7E80562042D0048

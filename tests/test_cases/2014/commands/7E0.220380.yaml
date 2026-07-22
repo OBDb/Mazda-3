@@ -1,0 +1,5 @@
+command_id: 7E0.220380
+test_cases:
+- expected_values:
+    MAZDA3_DPF_REGEN: 0
+  response: '7E80762038000000000'

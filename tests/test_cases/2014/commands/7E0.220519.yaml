@@ -1,0 +1,5 @@
+command_id: 7E0.220519
+test_cases:
+- expected_values:
+    MAZDA3_OIL_CHANGE_DIST: 4728
+  response: 7E805620519049E

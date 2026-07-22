@@ -1,0 +1,18 @@
+command_id: 7E0.016D
+test_cases:
+- expected_values:
+    FRP_A: 54470
+    FRP_A_CMD: 54210
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: 27
+    FRT_A_SUP: 1
+    FRT_B: 0
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D07152D15
+    7E82147430000000028
