@@ -1,0 +1,14 @@
+command_id: 7E0.2203DB
+test_cases:
+- expected_values:
+    MAZDA3_EXH_DIFF_P: 0.51
+  response: 7E8056203DB0066
+- expected_values:
+    MAZDA3_EXH_DIFF_P: 0.515
+  response: 7E8056203DB0067
+- expected_values:
+    MAZDA3_EXH_DIFF_P: 0.525
+  response: 7E8056203DB0069
+- expected_values:
+    MAZDA3_EXH_DIFF_P: 0.53
+  response: 7E8056203DB006A

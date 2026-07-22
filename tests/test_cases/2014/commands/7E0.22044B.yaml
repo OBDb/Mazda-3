@@ -1,0 +1,5 @@
+command_id: 7E0.22044B
+test_cases:
+- expected_values:
+    MAZDA3_DPF_PM_ACC_DES: 0.60883
+  response: 7E80562044B018F
