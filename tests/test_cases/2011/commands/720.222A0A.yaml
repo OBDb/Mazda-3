@@ -8,3 +8,6 @@ test_cases:
 - expected_values:
     MAZDA3_TT_1: 29
   response: 72804622A0A4F
+- expected_values:
+    MAZDA3_TT_1: 40
+  response: 72804622A0A5A
