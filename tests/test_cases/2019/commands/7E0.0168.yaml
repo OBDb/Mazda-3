@@ -36,3 +36,27 @@ test_cases:
   response: |-
     7E81009416803445000
     7E82100000000000000
+- expected_values:
+    IAT_11: 35
+    IAT_11_SUP: 1
+    IAT_12: 50
+    IAT_12_SUP: 1
+    IAT_13_SUP: 0
+    IAT_21_SUP: 0
+    IAT_22_SUP: 0
+    IAT_23_SUP: 0
+  response: |-
+    7E810094168034B5A00
+    7E82100000000000000
+- expected_values:
+    IAT_11: 36
+    IAT_11_SUP: 1
+    IAT_12: 49
+    IAT_12_SUP: 1
+    IAT_13_SUP: 0
+    IAT_21_SUP: 0
+    IAT_22_SUP: 0
+    IAT_23_SUP: 0
+  response: |-
+    7E810094168034C5900
+    7E82100000000000000
