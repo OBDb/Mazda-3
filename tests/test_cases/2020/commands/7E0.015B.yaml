@@ -4,5 +4,5 @@ test_cases:
     BAT_SOC: 21.96078
   response: 7E803415B38
 - expected_values:
-    BAT_SOC: 79.60784
-  response: 7E803415BCB
+    BAT_SOC: 80
+  response: 7E803415BCC
