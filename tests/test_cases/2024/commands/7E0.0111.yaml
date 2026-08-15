@@ -6,13 +6,13 @@ test_cases:
     0111
     7E803411122
 - expected_values:
-    TP: 10.19608
-  response: 7E80341111A
+    TP: 9.80392
+  response: '7E803411119'
 - expected_values:
     TP: 12.94118
   response: |-
     7E803411121
     7E903411121
 - expected_values:
-    TP: 84.70588
-  response: 7E8034111D8
+    TP: 91.37255
+  response: 7E8034111E9
