@@ -19,8 +19,8 @@ test_cases:
     MAZDA3_MAP: 3.195
   response: '7E8 05 62 03 01 0C 7B '
 - expected_values:
-    MAZDA3_MAP: 0.591
-  response: 7E805620301024F
+    MAZDA3_MAP: 0.59
+  response: 7E805620301024E
 - expected_values:
     MAZDA3_MAP: 1.023
   response: 7E80562030103FF
