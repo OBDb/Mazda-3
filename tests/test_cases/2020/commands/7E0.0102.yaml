@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     DTCFRZF: 0
   response: '7E80441020000'
+- expected_values:
+    DTCFRZF: 938
+  response: 7E804410203AA
