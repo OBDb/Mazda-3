@@ -767,7 +767,7 @@
   "signals": [
     {"id": "MAZDA3_KNOCKR", "path": "Engine", "fmt": { "len": 8, "max": 89.78, "mul": 100, "div": 284, "unit": "degrees" }, "name": "Knock retard"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "174F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "174F"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "MAZDA3_AIR_FUEL_RAT_ACT", "path": "Engine", "fmt": { "len": 8, "max": 29.274, "mul": 287, "div": 2500, "unit": "scalar" }, "name": "Air/fuel ratio, actual"}
   ]},
