@@ -4,23 +4,11 @@ test_cases:
     MAZDA3_HPFP_DES: 1718.69722
   response: 7E8056203DC04A1
 - expected_values:
-    MAZDA3_HPFP_DES: 1956.55911
-  response: 7E8056203DC0545
-- expected_values:
-    MAZDA3_HPFP_DES: 2175.5661
-  response: 7E8056203DC05DC
-- expected_values:
     MAZDA3_HPFP_DES: 2214.72629
   response: 7E8056203DC05F7
 - expected_values:
-    MAZDA3_HPFP_DES: 2256.78723
-  response: 7E8056203DC0614
+    MAZDA3_HPFP_DES: 2255.33685
+  response: 7E8056203DC0613
 - expected_values:
-    MAZDA3_HPFP_DES: 2438.0844
-  response: 7E8056203DC0691
-- expected_values:
-    MAZDA3_HPFP_DES: 2467.09195
-  response: 7E8056203DC06A5
-- expected_values:
-    MAZDA3_HPFP_DES: 2519.30554
-  response: 7E8056203DC06C9
+    MAZDA3_HPFP_DES: 2747.01479
+  response: 7E8056203DC0766

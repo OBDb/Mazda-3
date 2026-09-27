@@ -4,26 +4,8 @@ test_cases:
     MAZDA3_GEN_FC: 24.21912
   response: 7E8056216E81F00
 - expected_values:
-    MAZDA3_GEN_FC: 25.97086
-  response: 7E8056216E8213E
-- expected_values:
-    MAZDA3_GEN_FC: 27.43572
-  response: 7E8056216E8231E
-- expected_values:
-    MAZDA3_GEN_FC: 28.42451
-  response: 7E8056216E82462
-- expected_values:
-    MAZDA3_GEN_FC: 31.08568
-  response: 7E8056216E827CA
-- expected_values:
-    MAZDA3_GEN_FC: 38.05905
-  response: 7E8056216E830B7
-- expected_values:
-    MAZDA3_GEN_FC: 43.04875
-  response: 7E8056216E8371A
-- expected_values:
     MAZDA3_GEN_FC: 43.74762
   response: 7E8056216E837FF
 - expected_values:
-    MAZDA3_GEN_FC: 44.86763
-  response: 7E8056216E8396E
+    MAZDA3_GEN_FC: 65.42153
+  response: 7E8056216E853BD

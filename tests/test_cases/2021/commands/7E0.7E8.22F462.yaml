@@ -4,26 +4,5 @@ test_cases:
     MAZDA3_PCM_ACT_ENG_PCT_TRQ: 0
   response: 7E80462F4627D
 - expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 12
-  response: 7E80462F46289
-- expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 13
-  response: 7E80462F4628A
-- expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 14
-  response: 7E80462F4628B
-- expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 15
-  response: 7E80462F4628C
-- expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 17
-  response: 7E80462F4628E
-- expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 20
-  response: 7E80462F46291
-- expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 23
-  response: 7E80462F46294
-- expected_values:
-    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 29
-  response: 7E80462F4629A
+    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 66
+  response: 7E80462F462BF

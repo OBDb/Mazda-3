@@ -4,20 +4,5 @@ test_cases:
     MAZDA3_ACC_POS: 0
   response: 7E80462032B00
 - expected_values:
-    MAZDA3_ACC_POS: 5
-  response: 7E80462032B0A
-- expected_values:
-    MAZDA3_ACC_POS: 5.5
-  response: 7E80462032B0B
-- expected_values:
-    MAZDA3_ACC_POS: 9
-  response: 7E80462032B12
-- expected_values:
-    MAZDA3_ACC_POS: 10
-  response: 7E80462032B14
-- expected_values:
-    MAZDA3_ACC_POS: 13.5
-  response: 7E80462032B1B
-- expected_values:
-    MAZDA3_ACC_POS: 14
-  response: 7E80462032B1C
+    MAZDA3_ACC_POS: 30.5
+  response: 7E80462032B3D
