@@ -4,26 +4,11 @@ test_cases:
     MAZDA3_TP1_V: 0.565
   response: '7E8056209170235'
 - expected_values:
-    MAZDA3_TP1_V: 0.579
-  response: '7E8056209170243'
-- expected_values:
-    MAZDA3_TP1_V: 0.589
-  response: 7E805620917024D
-- expected_values:
-    MAZDA3_TP1_V: 0.592
-  response: '7E8056209170250'
-- expected_values:
-    MAZDA3_TP1_V: 0.598
-  response: '7E8056209170256'
-- expected_values:
-    MAZDA3_TP1_V: 0.722
-  response: 7E80562091702D2
-- expected_values:
-    MAZDA3_TP1_V: 0.731
-  response: 7E80562091702DB
-- expected_values:
     MAZDA3_TP1_V: 0.761
   response: 7E80562091702F9
 - expected_values:
-    MAZDA3_TP1_V: 1.145
-  response: '7E8056209170479'
+    MAZDA3_TP1_V: 0.773
+  response: '7E8056209170305'
+- expected_values:
+    MAZDA3_TP1_V: 4.594
+  response: 7E80562091711F2
