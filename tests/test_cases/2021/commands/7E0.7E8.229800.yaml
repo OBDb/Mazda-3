@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.229800
+test_cases:
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.40137
+  response: 7E805629800059B
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.57715
+  response: 7E805629800064F
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.66992
+  response: 7E80562980006AE
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.7041
+  response: 7E80562980006D1
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.73828
+  response: 7E80562980006F4
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.79199
+  response: 7E805629800072B
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.83594
+  response: '7E8056298000758'
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.85059
+  response: '7E8056298000767'
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.85547
+  response: 7E805629800076C
