@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F4A6
+test_cases:
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68670.1
+  response: 7E80762F4A6000A7A6D
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68670.3
+  response: 7E80762F4A6000A7A6F
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68670.4
+  response: 7E80762F4A6000A7A70
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68670.6
+  response: 7E80762F4A6000A7A72
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68670.7
+  response: 7E80762F4A6000A7A73
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68671
+  response: 7E80762F4A6000A7A76
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68671.2
+  response: 7E80762F4A6000A7A78
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68671.4
+  response: 7E80762F4A6000A7A7A
+- expected_values:
+    MAZDA3_PCM_VEH_ODO: 68671.7
+  response: 7E80762F4A6000A7A7D
