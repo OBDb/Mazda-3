@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    MAZDA3_ETC_ACT_DEG: 0.3125
+  response: 7E80562093C00A0
+- expected_values:
+    MAZDA3_ETC_ACT_DEG: 3.08008
+  response: 7E80562093C0629
+- expected_values:
+    MAZDA3_ETC_ACT_DEG: 5.10547
+  response: 7E80562093C0A36
+- expected_values:
+    MAZDA3_ETC_ACT_DEG: 14.25781
+  response: 7E80562093C1C84
+- expected_values:
+    MAZDA3_ETC_ACT_DEG: 14.5918
+  response: 7E80562093C1D2F

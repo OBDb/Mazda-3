@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2203E8
+test_cases:
+- expected_values:
+    MAZDA3_OAR: 0.03583
+  response: 7E8056203E8024B
+- expected_values:
+    MAZDA3_OAR: 0.06842
+  response: 7E8056203E80461
+- expected_values:
+    MAZDA3_OAR: 0.13727
+  response: 7E8056203E808C9
+- expected_values:
+    MAZDA3_OAR: 0.15454
+  response: 7E8056203E809E4
+- expected_values:
+    MAZDA3_OAR: 0.15802
+  response: 7E8056203E80A1D

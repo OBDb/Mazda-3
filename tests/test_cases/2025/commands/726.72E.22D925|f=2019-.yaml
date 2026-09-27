@@ -1,0 +1,8 @@
+command_id: 726.72E.22D925|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_TP_RR: 33.6
+  response: 72E0462D925A8
+- expected_values:
+    MAZDA3_TP_RR: 47.6
+  response: 72E0462D925EE
