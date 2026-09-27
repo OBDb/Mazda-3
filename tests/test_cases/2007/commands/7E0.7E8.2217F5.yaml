@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2217F5
+test_cases:
+- expected_values:
+    MAZDA3_LDP_REF_CURRENT: 0
+  response: 7E8056217F50000
