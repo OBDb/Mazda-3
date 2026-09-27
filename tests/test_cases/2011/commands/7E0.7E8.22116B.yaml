@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22116B
+test_cases:
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 2.75
+  response: 7E80562116B000B
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 5
+  response: 7E80562116B0014
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 10.75
+  response: 7E80562116B002B
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 11.25
+  response: 7E80562116B002D
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 13.25
+  response: 7E80562116B0035
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 14
+  response: 7E80562116B0038
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 23
+  response: 7E80562116B005C
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 26.75
+  response: 7E80562116B006B
+- expected_values:
+    MAZDA3_IGN_TIM_CYL1: 28
+  response: 7E80562116B0070
