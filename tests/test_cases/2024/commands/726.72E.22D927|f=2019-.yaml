@@ -1,0 +1,23 @@
+command_id: 726.72E.22D927|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_TT_FR: 41
+  response: |-
+    22D927
+    72E0462D9275B
+- expected_values:
+    MAZDA3_TT_FR: 33
+  response: |-
+    22D9271
+    72E0462D92753
+- expected_values:
+    MAZDA3_TT_FR: 36
+  response: |-
+    22D9271
+    72E0462D92756
+- expected_values:
+    MAZDA3_TT_FR: -16
+  response: 72E0462D92722
+- expected_values:
+    MAZDA3_TT_FR: 52
+  response: 72E0462D92766

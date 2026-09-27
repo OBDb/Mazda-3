@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220307
+test_cases:
+- expected_values:
+    MAZDA3_FP_LD: 56.72302
+  response: 7E805620307489B

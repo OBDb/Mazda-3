@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220324
+test_cases:
+- expected_values:
+    MAZDA3_HPFP_V: 0.88954
+  response: 7E80562032400B6
+- expected_values:
+    MAZDA3_HPFP_V: 0.94819
+  response: 7E80562032400C2
+- expected_values:
+    MAZDA3_HPFP_V: 0.97752
+  response: 7E80562032400C8
+- expected_values:
+    MAZDA3_HPFP_V: 1.44184
+  response: '7E8056203240127'
+- expected_values:
+    MAZDA3_HPFP_V: 1.77908
+  response: 7E805620324016C
