@@ -1,8 +1,8 @@
-command_id: 7E0.7E8.22DD01|fc=1,f=-2018
+command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    MAZDA3_ODO_PRE19: 165221
+    MAZDA3_ODO: 165221
   response: 7E80662DD01028565
 - expected_values:
-    MAZDA3_ODO_PRE19: 165228
+    MAZDA3_ODO: 165228
   response: 7E80662DD0102856C
