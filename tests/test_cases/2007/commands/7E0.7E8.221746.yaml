@@ -4,6 +4,9 @@ test_cases:
     MAZDA3_KNOCKR: 0
   response: '7E80462174600'
 - expected_values:
+    MAZDA3_KNOCKR: 0.35211
+  response: '7E80462174601'
+- expected_values:
     MAZDA3_KNOCKR: 2.46479
   response: '7E80462174607'
 - expected_values:
