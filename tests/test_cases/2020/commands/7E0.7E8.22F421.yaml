@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F421
+test_cases:
+- expected_values:
+    MAZDA3_MIL_DIST: 50
+  response: 7E80562F4210032

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- expected_values:
+    MAZDA3_WARMUP_CLR: 232
+  response: 7E80462F430E8
