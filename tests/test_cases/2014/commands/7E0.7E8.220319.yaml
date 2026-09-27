@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220319
+test_cases:
+- expected_values:
+    MAZDA3_VCT_EXH_ACT: 0
+  response: '7E8056203190000'
+- expected_values:
+    MAZDA3_VCT_EXH_ACT: 16.125
+  response: '7E8056203190102'
+- expected_values:
+    MAZDA3_VCT_EXH_ACT: 22.6875
+  response: 7E805620319016B
+- expected_values:
+    MAZDA3_VCT_EXH_ACT: 27.375
+  response: 7E80562031901B6
+- expected_values:
+    MAZDA3_VCT_EXH_ACT: 42.5625
+  response: 7E80562031902A9

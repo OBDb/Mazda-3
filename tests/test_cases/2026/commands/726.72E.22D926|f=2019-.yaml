@@ -1,0 +1,29 @@
+command_id: 726.72E.22D926|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_TT_FL: 23
+  response: 72E0462D92649
+- expected_values:
+    MAZDA3_TT_FL: 24
+  response: 72E0462D9264A
+- expected_values:
+    MAZDA3_TT_FL: 25
+  response: 72E0462D9264B
+- expected_values:
+    MAZDA3_TT_FL: 26
+  response: 72E0462D9264C
+- expected_values:
+    MAZDA3_TT_FL: 27
+  response: 72E0462D9264D
+- expected_values:
+    MAZDA3_TT_FL: 28
+  response: 72E0462D9264E
+- expected_values:
+    MAZDA3_TT_FL: 29
+  response: 72E0462D9264F
+- expected_values:
+    MAZDA3_TT_FL: 30
+  response: 72E0462D92650
+- expected_values:
+    MAZDA3_TT_FL: 42
+  response: 72E0462D9265C
