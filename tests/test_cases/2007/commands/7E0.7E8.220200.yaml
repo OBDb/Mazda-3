@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220200
+test_cases:
+- expected_values:
+    MAZDA3_DTC_CNT: 2
+  response: '7E80462020002'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22163E
+test_cases:
+- expected_values:
+    MAZDA3_O2S12_FT: 0
+  response: 7E80562163E0000

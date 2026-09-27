@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22091A
+test_cases:
+- expected_values:
+    MAZDA3_ETC_DSD_DEG: 3.11328
+  response: 7E80562091A063A
+- expected_values:
+    MAZDA3_ETC_DSD_DEG: 5
+  response: 7E80562091A0A00
+- expected_values:
+    MAZDA3_ETC_DSD_DEG: 52.45312
+  response: 7E80562091A68E8
