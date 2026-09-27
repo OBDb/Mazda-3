@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22038E
+test_cases:
+- expected_values:
+    MAZDA3_EVAP_V: 5
+  response: 7E80562038E0569
+- expected_values:
+    MAZDA3_EVAP_V: 5
+  response: 7E80562038E05FF
+- expected_values:
+    MAZDA3_EVAP_V: 5
+  response: 7E80562038E0A00
