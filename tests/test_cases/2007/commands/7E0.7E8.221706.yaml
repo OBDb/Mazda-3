@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.221706
+test_cases:
+- expected_values:
+    MAZDA3_HIDET_SW: 0
+    MAZDA3_LAMBDA_MOD_SW: 0
+  response: '7E80462170680'

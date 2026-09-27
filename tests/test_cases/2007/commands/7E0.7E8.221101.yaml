@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221101
+test_cases:
+- expected_values:
+    MAZDA3_ACCS_SW: 0
+    MAZDA3_BOO_SW: 1
+    MAZDA3_INGEAR_SW: 0
+    MAZDA3_PSP_SW: 0
+  response: '7E80462110102'
+- expected_values:
+    MAZDA3_ACCS_SW: 1
+    MAZDA3_BOO_SW: 1
+    MAZDA3_INGEAR_SW: 0
+    MAZDA3_PSP_SW: 0
+  response: '7E80462110103'
+- expected_values:
+    MAZDA3_ACCS_SW: 0
+    MAZDA3_BOO_SW: 0
+    MAZDA3_INGEAR_SW: 1
+    MAZDA3_PSP_SW: 0
+  response: '7E80462110108'
+- expected_values:
+    MAZDA3_ACCS_SW: 1
+    MAZDA3_BOO_SW: 0
+    MAZDA3_INGEAR_SW: 1
+    MAZDA3_PSP_SW: 0
+  response: '7E80462110109'
