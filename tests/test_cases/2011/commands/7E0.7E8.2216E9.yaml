@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2216E9
+test_cases:
+- expected_values:
+    MAZDA3_GEN_V: 14.25
+  response: 7E8056216E90072
+- expected_values:
+    MAZDA3_GEN_V: 14.375
+  response: 7E8056216E90073
+- expected_values:
+    MAZDA3_GEN_V: 14.5
+  response: 7E8056216E90074
+- expected_values:
+    MAZDA3_GEN_V: 14.625
+  response: 7E8056216E90075
+- expected_values:
+    MAZDA3_GEN_V: 14.875
+  response: 7E8056216E90077
+- expected_values:
+    MAZDA3_GEN_V: 15
+  response: 7E8056216E90078

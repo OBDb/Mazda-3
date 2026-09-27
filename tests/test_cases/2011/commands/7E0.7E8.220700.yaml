@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220700
+test_cases:
+- expected_values:
+    MAZDA3_IAT_FAULT: 0
+  response: 7E807620700000000C0

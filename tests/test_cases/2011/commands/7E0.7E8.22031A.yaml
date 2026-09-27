@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22031A
+test_cases:
+- expected_values:
+    MAZDA3_VCT_INT_ERR: 0
+  response: 7E80562031A0000
+- expected_values:
+    MAZDA3_VCT_INT_ERR: -0.3125
+  response: 7E80562031AFFFB
+- expected_values:
+    MAZDA3_VCT_INT_ERR: -0.25
+  response: 7E80562031AFFFC
+- expected_values:
+    MAZDA3_VCT_INT_ERR: -0.125
+  response: 7E80562031AFFFE
+- expected_values:
+    MAZDA3_VCT_INT_ERR: -0.0625
+  response: 7E80562031AFFFF
