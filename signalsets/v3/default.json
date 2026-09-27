@@ -60,7 +60,7 @@
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "61B1"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55, "unit": "liters" }, "name": "Fuel level"}
+    {"id": "MAZDA3_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D922"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
@@ -104,26 +104,26 @@
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"21": "30"}, "freq": 15,
   "signals": [
-    {"id": "MAZDA3_TP_FL_V1",    "path": "Tires", "fmt": {           "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front left tire pressure"},
-    {"id": "MAZDA3_TP_FR_V1",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front right tire pressure"},
-    {"id": "MAZDA3_TP_RL_V1",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear left tire pressure"},
-    {"id": "MAZDA3_TP_RR_V1",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear right tire pressure"},
+    {"id": "MAZDA3_TP_FL_V1",    "path": "Tires", "fmt": {           "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "MAZDA3_TP_FR_V1",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "MAZDA3_TP_RL_V1",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "MAZDA3_TP_RR_V1",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "MAZDA3_TP_SPARE_V1", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "1004"}, "freq": 15,
   "signals": [
-    {"id": "MAZDA3_TT_FL_V2",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature"},
-    {"id": "MAZDA3_TT_FR_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature"},
-    {"id": "MAZDA3_TT_RL_V2",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear left tire temperature"},
-    {"id": "MAZDA3_TT_RR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature"},
+    {"id": "MAZDA3_TT_FL_V2",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "MAZDA3_TT_FR_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "MAZDA3_TT_RL_V2",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "MAZDA3_TT_RR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
     {"id": "MAZDA3_TT_SPARE_V2", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "1005"}, "freq": 15,
   "signals": [
-    {"id": "MAZDA3_TP_FL_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front left tire pressure"},
-    {"id": "MAZDA3_TP_FR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front right tire pressure"},
-    {"id": "MAZDA3_TP_RL_V2",    "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear left tire pressure"},
-    {"id": "MAZDA3_TP_RR_V2",    "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear right tire pressure"},
+    {"id": "MAZDA3_TP_FL_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "MAZDA3_TP_FR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "MAZDA3_TP_RL_V2",    "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "MAZDA3_TP_RR_V2",    "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "MAZDA3_TP_SPARE_V2", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "2021"}, "freq": 3600,
@@ -170,7 +170,7 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "21"}, "freq": 0.25,
   "signals": [
-    {"id": "MAZDA3_VSS_V1", "path": "Movement", "fmt": { "len": 8, "max": 326, "mul": 1.28, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "description": "Current vehicle speed."}
+    {"id": "MAZDA3_VSS_V1", "path": "Movement", "fmt": { "len": 8, "max": 326, "mul": 1.28, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "47"}, "freq": 0.25,
   "signals": [
@@ -189,7 +189,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"21": "29"}, "freq": 30,
   "signals": [
-    {"id": "MAZDA3_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level, volume"}
+    {"id": "MAZDA3_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level, volume", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"22": "1021"}, "freq": 5,
   "signals": [
@@ -197,7 +197,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "fcm1": true, "dbg": true, "cmd": {"22": "1022"}, "freq": 30,
   "signals": [
-    {"id": "MAZDA3_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "nullmin": 0, "nullmax": 655, "unit": "liters" }, "name": "Fuel remaining"}
+    {"id": "MAZDA3_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "nullmin": 0, "nullmax": 655, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7D0", "rax": "7DA", "dbg": true, "cmd": {"21": "62"}, "freq": 1,
   "signals": [
@@ -219,8 +219,8 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "82"}, "freq": 5,
   "signals": [
-    {"id": "MAZDA3_ATF_PAN_T", "path": "Transmission", "fmt": {           "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, pan"},
-    {"id": "MAZDA3_ATF_TQC_T", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, torque converter"}
+    {"id": "MAZDA3_ATF_PAN_T", "path": "Transmission", "fmt": {           "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, pan",              "suggestedMetric": "transmissionFluidTemperature"},
+    {"id": "MAZDA3_ATF_TQC_T", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, torque converter", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0200"}, "freq": 3600,
   "signals": [
@@ -791,7 +791,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4194"}, "freq": 30,
   "signals": [
-    {"id": "MAZDA3_DTE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, calculated"}
+    {"id": "MAZDA3_DTE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, calculated", "suggestedMetric": "fuelRange"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4195"}, "freq": 30,
   "signals": [
@@ -812,21 +812,17 @@
   "signals": [
     {"id": "MAZDA3_SCCS_V", "path": "Cruise control", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Cruise control voltage", "description": "0.0V = On/Off Switch depressed, 1.1V = Cancel depressed, 3.1V = Set/- switch depressed, 4.2V = Res/+ switch depressed, 5.0V = Normal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017] },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_ODO_PRE19", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "filter": { "from": 2019 }, "dbgfilter": { "from": 2019 },
-  "signals": [
-    {"id": "MAZDA3_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer"}
+    {"id": "MAZDA3_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load"}
+    {"id": "MAZDA3_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load", "suggestedMetric": "engineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term"}
+    {"id": "MAZDA3_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term", "suggestedMetric": "shortTermFuelTrim"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
@@ -842,7 +838,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
+    {"id": "MAZDA3_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
@@ -854,7 +850,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level"}
+    {"id": "MAZDA3_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
@@ -870,7 +866,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
+    {"id": "MAZDA3_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F45C"}, "freq": 1,
   "signals": [
@@ -886,7 +882,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F4A6"}, "freq": 30,
   "signals": [
-    {"id": "MAZDA3_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer"}
+    {"id": "MAZDA3_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "17B3"}, "freq": 5,
   "signals": [
