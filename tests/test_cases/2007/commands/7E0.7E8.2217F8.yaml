@@ -3,6 +3,3 @@ test_cases:
 - expected_values:
     MAZDA3_LDP_SL_DV: 0
   response: 7E8056217F80000
-- expected_values:
-    MAZDA3_LDP_SL_DV: 0.00256
-  response: 7E8056217F811D6

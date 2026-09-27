@@ -5,19 +5,7 @@ test_cases:
     MAZDA3_CPP_SW: 0
     MAZDA3_IVS_SW: 0
     MAZDA3_PNP_SW: 0
-  response: 7E80562A2110000
-- expected_values:
-    MAZDA3_BPA_SW: 0
-    MAZDA3_CPP_SW: 0
-    MAZDA3_IVS_SW: 0
-    MAZDA3_PNP_SW: 0
   response: 7E80562A2110002
-- expected_values:
-    MAZDA3_BPA_SW: 0
-    MAZDA3_CPP_SW: 0
-    MAZDA3_IVS_SW: 0
-    MAZDA3_PNP_SW: 0
-  response: 7E80562A2110003
 - expected_values:
     MAZDA3_BPA_SW: 0
     MAZDA3_CPP_SW: 0

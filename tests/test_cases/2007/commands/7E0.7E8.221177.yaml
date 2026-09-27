@@ -7,5 +7,5 @@ test_cases:
     MAZDA3_MAF_V: 8.44
   response: 7E80562117720F8
 - expected_values:
-    MAZDA3_MAF_V: 13.34
-  response: 7E805621177341C
+    MAZDA3_MAF_V: 11.82
+  response: 7E8056211772E2C

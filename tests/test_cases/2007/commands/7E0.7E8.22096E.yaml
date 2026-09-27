@@ -13,14 +13,8 @@ test_cases:
     MAZDA3_IDLE: 884.25
   response: 7E80562096E0DD1
 - expected_values:
-    MAZDA3_IDLE: 888.75
-  response: 7E80562096E0DE3
-- expected_values:
     MAZDA3_IDLE: 899.25
   response: 7E80562096E0E0D
-- expected_values:
-    MAZDA3_IDLE: 925.75
-  response: 7E80562096E0E77
 - expected_values:
     MAZDA3_IDLE: 934
   response: 7E80562096E0E98

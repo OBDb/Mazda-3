@@ -4,11 +4,11 @@ test_cases:
     MAZDA3_VT_DUTY: 13.20516
   response: 7E8056216CF10E7
 - expected_values:
-    MAZDA3_VT_DUTY: 14.82567
-  response: 7E8056216CF12FA
+    MAZDA3_VT_DUTY: 13.24483
+  response: 7E8056216CF10F4
 - expected_values:
-    MAZDA3_VT_DUTY: 14.87449
-  response: 7E8056216CF130A
+    MAZDA3_VT_DUTY: 14.89891
+  response: 7E8056216CF1312
 - expected_values:
     MAZDA3_VT_DUTY: 82.69169
   response: 7E8056216CF69D8

@@ -4,8 +4,8 @@ test_cases:
     MAZDA3_FUEL_PW: 0.952
   response: '7E8056214100077'
 - expected_values:
-    MAZDA3_FUEL_PW: 2.04
-  response: 7E80562141000FF
+    MAZDA3_FUEL_PW: 1.968
+  response: 7E80562141000F6
 - expected_values:
     MAZDA3_FUEL_PW: 4.12
   response: '7E8056214100203'

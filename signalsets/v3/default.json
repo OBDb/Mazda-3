@@ -687,7 +687,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1305"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_BOOST_DES", "path": "Engine", "fmt": { "len": 16, "max": 1.8, "unit": "bars" }, "name": "Boost, desired"}
+    {"id": "MAZDA3_BOOST_DES", "path": "Engine", "fmt": { "len": 16, "max": 10.2398, "div": 6400, "unit": "bars" }, "name": "Boost, desired"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1310"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013], "from": 2027 },
   "signals": [
@@ -736,7 +736,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16E1"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_WASTEGATE_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Wastegate duty cycle"}
+    {"id": "MAZDA3_WASTEGATE_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 99.6093, "mul": 25, "div": 64, "unit": "percent" }, "name": "Wastegate duty cycle"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2015, 2016, 2017, 2019], "from": 2022 },
   "signals": [
@@ -761,7 +761,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1723"}, "freq": 5,
   "signals": [
-    {"id": "MAZDA3_BOOSTED_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Boosted air temperature"}
+    {"id": "MAZDA3_BOOSTED_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 119.9749, "min": -39.3999, "mul": 5, "div": 8, "add": -39.4, "unit": "celsius" }, "name": "Boosted air temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1746"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
@@ -891,8 +891,8 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "DAA1"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_TIM_CHAIN_ELONGATION",   "path": "Engine", "fmt": {           "len": 16, "max": 15, "unit": "scalar" }, "name": "Timing chain elongation angle"},
-    {"id": "MAZDA3_TIM_CHAIN_ELONGATION_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 15, "unit": "scalar" }, "name": "Timing chain elongation angle 2"}
+    {"id": "MAZDA3_TIM_CHAIN_ELONGATION",   "path": "Engine", "fmt": {           "len": 16, "max": 32.7669, "min": -32.7679, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Timing chain elongation angle"},
+    {"id": "MAZDA3_TIM_CHAIN_ELONGATION_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.7669, "min": -32.7679, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Timing chain elongation angle 2"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2019, 2020], "from": 2022 },
   "signals": [
@@ -986,8 +986,8 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F470"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_INT_MAP_DES", "path": "Engine", "fmt": {"bix": 8,  "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Intake manifold absolute pressure, desired"},
-    {"id": "MAZDA3_INT_MAP",     "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Intake manifold absolute pressure"}
+    {"id": "MAZDA3_INT_MAP_DES", "path": "Engine", "fmt": {"bix": 8,  "len": 16, "max": 2047.9687, "div": 32, "unit": "kilopascal" }, "name": "Intake manifold absolute pressure, desired"},
+    {"id": "MAZDA3_INT_MAP",     "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 2047.9687, "div": 32, "unit": "kilopascal" }, "name": "Intake manifold absolute pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F477"}, "freq": 5,
   "signals": [
@@ -995,7 +995,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F47A"}, "freq": 1,
   "signals": [
-    {"id": "MAZDA3_DPF_DIFF_P", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Diesel particulate filter differential pressure"}
+    {"id": "MAZDA3_DPF_DIFF_P", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 327.6699, "min": -327.6799, "div": 100, "sign": true, "unit": "kilopascal" }, "name": "Diesel particulate filter differential pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2022 },
   "signals": [
@@ -1023,11 +1023,11 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1EC7"}, "freq": 0.25,
   "signals": [
-    {"id": "MAZDA3_TQ_DES", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Torque, desired"}
+    {"id": "MAZDA3_TQ_DES", "path": "Engine", "fmt": { "len": 16, "max": 655.3399, "min": -655.3599, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, desired"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1EE4"}, "freq": 0.25,
   "signals": [
-    {"id": "MAZDA3_TQ_ACT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Torque, actual"}
+    {"id": "MAZDA3_TQ_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.3399, "min": -655.3599, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, actual"}
   ]}
 ]
 }

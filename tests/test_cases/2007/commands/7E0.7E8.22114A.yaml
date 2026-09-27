@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22114A
 test_cases:
 - expected_values:
-    MAZDA3_IAT_V: 23.104
-  response: 7E80562114A5A40
+    MAZDA3_IAT_V: 24.448
+  response: 7E80562114A5F80
 - expected_values:
-    MAZDA3_IAT_V: 24
-  response: 7E80562114A5DC0
+    MAZDA3_IAT_V: 25.28
+  response: 7E80562114A62C0
 - expected_values:
-    MAZDA3_IAT_V: 24.064
-  response: 7E80562114A5E00
+    MAZDA3_IAT_V: 25.6
+  response: 7E80562114A6400
 - expected_values:
     MAZDA3_IAT_V: 32.512
   response: 7E80562114A7F00
