@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22032B
+test_cases:
+- expected_values:
+    MAZDA3_ACC_POS: 0
+  response: 7E80462032B00
+- expected_values:
+    MAZDA3_ACC_POS: 32
+  response: 7E80462032B40
