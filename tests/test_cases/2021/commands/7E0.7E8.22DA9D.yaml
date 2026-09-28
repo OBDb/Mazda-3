@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22DA9D
+test_cases:
+- expected_values:
+    MAZDA3_BAT_INTERNAL_RES: 0.0082
+  response: 7E80562DA9D0334
