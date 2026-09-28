@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22099B
+test_cases:
+- expected_values:
+    MAZDA3_AC_STATE: 0
+  response: 7E80562099B0000
+- expected_values:
+    MAZDA3_AC_STATE: 0
+  response: 7E80562099B0020
+- expected_values:
+    MAZDA3_AC_STATE: 1
+  response: 7E80562099B0100
+- expected_values:
+    MAZDA3_AC_STATE: 1
+  response: 7E80562099B0120
+- expected_values:
+    MAZDA3_AC_STATE: 1
+  response: 7E80562099B01A0
