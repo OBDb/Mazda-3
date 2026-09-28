@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220917
+test_cases:
+- expected_values:
+    MAZDA3_TP1_V: 0.628
+  response: '7E8056209170274'
+- expected_values:
+    MAZDA3_TP1_V: 1.274
+  response: 7E80562091704FA
+- expected_values:
+    MAZDA3_TP1_V: 1.536
+  response: '7E8056209170600'
+- expected_values:
+    MAZDA3_TP1_V: 4.7
+  response: 7E805620917125C

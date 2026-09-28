@@ -1,0 +1,11 @@
+command_id: 726.72E.22DA05
+test_cases:
+- expected_values:
+    MAZDA3_BRAKE_SWITCH: 0
+  response: 72E0762DA0500000000
+- expected_values:
+    MAZDA3_BRAKE_SWITCH: 0
+  response: 72E0762DA0560000000
+- expected_values:
+    MAZDA3_BRAKE_SWITCH: 1
+  response: 72E0762DA0580000000
