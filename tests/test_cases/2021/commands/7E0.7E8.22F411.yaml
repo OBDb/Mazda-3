@@ -19,5 +19,14 @@ test_cases:
     MAZDA3_INT_SHUTTER_VLV_POS: 13.72549
   response: 7E80462F41123
 - expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 15.68627
+  response: 7E80462F41128
+- expected_values:
     MAZDA3_INT_SHUTTER_VLV_POS: 18.82353
   response: 7E80462F41130
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 24.31373
+  response: 7E80462F4113E
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 25.09804
+  response: 7E80462F41140
