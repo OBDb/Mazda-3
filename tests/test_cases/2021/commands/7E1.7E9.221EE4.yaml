@@ -10,8 +10,17 @@ test_cases:
     MAZDA3_TQ_ACT: 17
   response: 7E905621EE40352
 - expected_values:
+    MAZDA3_TQ_ACT: 22
+  response: 7E905621EE4044C
+- expected_values:
     MAZDA3_TQ_ACT: 32
   response: 7E905621EE40640
+- expected_values:
+    MAZDA3_TQ_ACT: 110
+  response: 7E905621EE4157C
+- expected_values:
+    MAZDA3_TQ_ACT: -42
+  response: 7E905621EE4F7CC
 - expected_values:
     MAZDA3_TQ_ACT: -34
   response: 7E905621EE4F95C
