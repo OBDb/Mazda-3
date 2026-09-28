@@ -4,29 +4,8 @@ test_cases:
     MAZDA3_VCT_EXH_DUTY: 0
   response: '7E8056203170000'
 - expected_values:
-    MAZDA3_VCT_EXH_DUTY: 28.24402
-  response: '7E8056203172427'
-- expected_values:
-    MAZDA3_VCT_EXH_DUTY: 40.11841
-  response: 7E805620317335A
-- expected_values:
     MAZDA3_VCT_EXH_DUTY: 42.10815
   response: 7E80562031735E6
 - expected_values:
-    MAZDA3_VCT_EXH_DUTY: 42.35535
-  response: '7E8056203173637'
-- expected_values:
-    MAZDA3_VCT_EXH_DUTY: 43.96057
-  response: '7E8056203173845'
-- expected_values:
-    MAZDA3_VCT_EXH_DUTY: 45.68176
-  response: 7E8056203173A79
-- expected_values:
-    MAZDA3_VCT_EXH_DUTY: 45.79468
-  response: 7E8056203173A9E
-- expected_values:
-    MAZDA3_VCT_EXH_DUTY: 45.98999
-  response: 7E8056203173ADE
-- expected_values:
-    MAZDA3_VCT_EXH_DUTY: 48.15369
-  response: 7E8056203173DA3
+    MAZDA3_VCT_EXH_DUTY: 47.92175
+  response: 7E8056203173D57

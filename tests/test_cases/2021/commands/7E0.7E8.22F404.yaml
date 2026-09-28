@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F404
 test_cases:
 - expected_values:
-    MAZDA3_ENG_LOAD_PCT: 23.92157
-  response: 7E80462F4043D
+    MAZDA3_ENG_LOAD_PCT: 16.07843
+  response: 7E80462F40429
 - expected_values:
     MAZDA3_ENG_LOAD_PCT: 100
   response: 7E80462F404FF

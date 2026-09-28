@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F411
+test_cases:
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 10.19608
+  response: 7E80462F4111A
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 10.98039
+  response: 7E80462F4111C
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 11.37255
+  response: 7E80462F4111D
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 11.76471
+  response: 7E80462F4111E
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 12.15686
+  response: 7E80462F4111F
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 13.72549
+  response: 7E80462F41123
+- expected_values:
+    MAZDA3_INT_SHUTTER_VLV_POS: 18.82353
+  response: 7E80462F41130
