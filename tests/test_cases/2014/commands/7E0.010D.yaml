@@ -4,6 +4,9 @@ test_cases:
     VSS: 0
   response: '7E8 03 41 0D 00 '
 - expected_values:
+    VSS: 60
+  response: '7E8 03 41 0D 3C '
+- expected_values:
     VSS: 0
   response: 7E803410D00
 - expected_values:
