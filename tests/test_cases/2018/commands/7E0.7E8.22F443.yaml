@@ -4,5 +4,5 @@ test_cases:
     MAZDA3_ENG_LOAD_ACT: 10.19608
   response: 7E80562F443001A
 - expected_values:
-    MAZDA3_ENG_LOAD_ACT: 58.82353
-  response: 7E80562F4430096
+    MAZDA3_ENG_LOAD_ACT: 60.39216
+  response: 7E80562F443009A
