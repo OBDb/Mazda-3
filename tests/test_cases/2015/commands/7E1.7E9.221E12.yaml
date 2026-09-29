@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.221E12
+test_cases:
+- expected_values:
+    MAZDA3_GEAR_7E1: 0
+  response: 7E904621E1200
+- expected_values:
+    MAZDA3_GEAR_7E1: 1
+  response: 7E904621E1201
+- expected_values:
+    MAZDA3_GEAR_7E1: 2
+  response: 7E904621E1202
+- expected_values:
+    MAZDA3_GEAR_7E1: 3
+  response: 7E904621E1203
+- expected_values:
+    MAZDA3_GEAR_7E1: 4
+  response: 7E904621E1204
+- expected_values:
+    MAZDA3_GEAR_7E1: 5
+  response: 7E904621E1205

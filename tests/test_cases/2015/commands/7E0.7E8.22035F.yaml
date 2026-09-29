@@ -4,8 +4,8 @@ test_cases:
     MAZDA3_RO2_V: 0.04297
   response: 7E80562035F002C
 - expected_values:
-    MAZDA3_RO2_V: 0.74609
-  response: 7E80562035F02FC
+    MAZDA3_RO2_V: 0.74707
+  response: 7E80562035F02FD
 - expected_values:
     MAZDA3_RO2_V: 0.75
   response: 7E80562035F0300
