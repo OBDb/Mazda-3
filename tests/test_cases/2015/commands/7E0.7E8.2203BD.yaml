@@ -4,8 +4,8 @@ test_cases:
     MAZDA3_CL_LC: 0.30969
   response: 7E8056203BD09E9
 - expected_values:
-    MAZDA3_CL_LC: 0.78186
-  response: 7E8056203BD1905
+    MAZDA3_CL_LC: 0.75024
+  response: 7E8056203BD1802
 - expected_values:
     MAZDA3_CL_LC: 3.9
   response: 7E8056203BD7FFF

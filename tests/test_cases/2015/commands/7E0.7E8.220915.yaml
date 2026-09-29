@@ -4,11 +4,11 @@ test_cases:
     MAZDA3_APP2_V: 0.393
   response: '7E8056209150189'
 - expected_values:
-    MAZDA3_APP2_V: 0.516
-  response: '7E8056209150204'
+    MAZDA3_APP2_V: 0.765
+  response: 7E80562091502FD
 - expected_values:
-    MAZDA3_APP2_V: 0.756
-  response: 7E80562091502F4
+    MAZDA3_APP2_V: 0.771
+  response: '7E8056209150303'
 - expected_values:
     MAZDA3_APP2_V: 1.066
   response: 7E805620915042A
