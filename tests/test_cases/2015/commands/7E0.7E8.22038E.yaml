@@ -5,10 +5,10 @@ test_cases:
   response: 7E80562038E0676
 - expected_values:
     MAZDA3_EVAP_V: 5
-  response: 7E80562038E07FC
+  response: 7E80562038E07FE
 - expected_values:
     MAZDA3_EVAP_V: 5
   response: 7E80562038E0801
 - expected_values:
     MAZDA3_EVAP_V: 5
-  response: 7E80562038E0B26
+  response: 7E80562038E0B17

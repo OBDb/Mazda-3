@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MAZDA3_WARMUP_CLR: 77
   response: 7E80462F4304D
+- expected_values:
+    MAZDA3_WARMUP_CLR: 78
+  response: 7E80462F4304E

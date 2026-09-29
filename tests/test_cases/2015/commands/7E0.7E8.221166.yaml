@@ -4,8 +4,8 @@ test_cases:
     MAZDA3_EVAP_PURGE_CMD: 0
   response: '7E8056211660000'
 - expected_values:
-    MAZDA3_EVAP_PURGE_CMD: 42.17529
-  response: 7E80562116635FC
+    MAZDA3_EVAP_PURGE_CMD: 13.26904
+  response: 7E80562116610FC
 - expected_values:
     MAZDA3_EVAP_PURGE_CMD: 63.44299
   response: '7E8056211665135'
