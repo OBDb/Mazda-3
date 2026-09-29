@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MAZDA3_AAT_ALT: 15
   response: 7E80462057D6E
+- expected_values:
+    MAZDA3_AAT_ALT: 18.5
+  response: 7E80462057D75
