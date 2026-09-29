@@ -5,6 +5,9 @@ test_cases:
   response: 72E0762DA0504000000
 - expected_values:
     MAZDA3_BRAKE_SWITCH: 0
+  response: 72E0762DA050C000000
+- expected_values:
+    MAZDA3_BRAKE_SWITCH: 0
   response: 72E0762DA0510000000
 - expected_values:
     MAZDA3_BRAKE_SWITCH: 0
