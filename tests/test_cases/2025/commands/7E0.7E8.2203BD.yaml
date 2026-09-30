@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203BD
+test_cases:
+- expected_values:
+    MAZDA3_CL_LC: 0.05127
+  response: 7E8056203BD01A4
+- expected_values:
+    MAZDA3_CL_LC: 3.9
+  response: 7E8056203BD7FFF
+- expected_values:
+    MAZDA3_CL_LC: -0.37488
+  response: 7E8056203BDF401
+- expected_values:
+    MAZDA3_CL_LC: -0.01648
+  response: 7E8056203BDFF79

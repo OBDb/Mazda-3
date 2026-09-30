@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F433
+test_cases:
+- expected_values:
+    MAZDA3_BAROMETRIC_P: 99
+  response: 7E80462F43363
+- expected_values:
+    MAZDA3_BAROMETRIC_P: 100
+  response: 7E80462F43364
+- expected_values:
+    MAZDA3_BAROMETRIC_P: 101
+  response: 7E80462F43365

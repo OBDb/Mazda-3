@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    MAZDA3_DIST_DTC_CLR: 24862
+  response: 7E80562F431611E
