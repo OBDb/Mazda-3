@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2203EC
+test_cases:
+- expected_values:
+    MAZDA3_IGN_CORR_CYL1: 0
+  response: 7E8056203EC0000

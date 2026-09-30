@@ -10,5 +10,5 @@ test_cases:
     MAZDA3_VCT_INT_ACT: 16.125
   response: '7E8056203180102'
 - expected_values:
-    MAZDA3_VCT_INT_ACT: 48.1875
-  response: '7E8056203180303'
+    MAZDA3_VCT_INT_ACT: 66.9375
+  response: 7E805620318042F
