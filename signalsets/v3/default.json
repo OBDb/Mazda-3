@@ -234,7 +234,7 @@
   "signals": [
     {"id": "MAZDA3_DTC_CNT", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of DTCs"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0202"}, "freq": 3600, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0202"}, "freq": 3600, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_DTC_CNTD", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of DTCs"}
   ]},
@@ -254,19 +254,19 @@
   "signals": [
     {"id": "MAZDA3_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_VCT_INT_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT intake camshaft solenoid duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0317"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0317"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_VCT_EXH_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT exhaust camshaft solenoid duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0318"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0318"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_VCT_INT_ACT", "fmt": { "len": 16, "max": 0, "div": 16, "unit": "degrees" }, "name": "VCT intake camshaft actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0319"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0319"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "VCT exhaust camshaft actual"}
   ]},
@@ -278,11 +278,11 @@
   "signals": [
     {"id": "MAZDA3_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "VCT exhaust camshaft error"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0324"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0324"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_HPFP_V", "fmt": { "len": 16, "max": 5, "div": 204.6, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_ACC_POS", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
@@ -314,7 +314,7 @@
   "signals": [
     {"id": "MAZDA3_BARO_V_7E0", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_RO2_V", "fmt": { "len": 16, "max": 1, "div": 1024, "unit": "volts" }, "name": "Rear O2 voltage"}
   ]},
@@ -342,7 +342,7 @@
   "signals": [
     {"id": "MAZDA3_PCM_MISF_ACCEL_CYL5_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_EVAP_V", "fmt": { "len": 16, "max": 5, "div": 5.0048876, "sign": true, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
   ]},
@@ -350,7 +350,7 @@
   "signals": [
     {"id": "MAZDA3_ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "div": 64, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_AC_P", "path": "Climate", "fmt": { "len": 16, "max": 1000, "mul": 245251, "div": 845473, "unit": "psi" }, "name": "A/C compressor pressure"}
   ]},
@@ -362,11 +362,11 @@
   "signals": [
     {"id": "MAZDA3_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "MAZDA3_COOLING_FAN_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 40, "div": 13107, "unit": "percent" }, "name": "Cooling fan duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BA"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BA"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_AAT_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
   ]},
@@ -378,7 +378,7 @@
   "signals": [
     {"id": "MAZDA3_VCT_INT_DES", "fmt": { "len": 16, "max": 2047, "min": -2047, "div": 16, "sign": true, "unit": "degrees" }, "name": "VCT intake cam, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BD"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BD"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_CL_LC", "fmt": { "len": 16, "max": 3.9, "min": -4, "div": 8192, "sign": true, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
@@ -390,7 +390,7 @@
   "signals": [
     {"id": "MAZDA3_EXH_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 4.5, "div": 200, "unit": "volts" }, "name": "Exhaust differential pressure", "description": "This sensor is crucial for monitoring how clogged the DPF has become. It measures the pressure before and after the DPF in the exhaust system, with the difference between these two measurements indicating how restricted the filter has become. When the pressure difference becomes too high (indicating a clogged filter), the ECM will initiate a regeneration process to burn off the accumulated soot and clean the filter."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DC"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DC"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_HPFP_DES", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
@@ -402,11 +402,11 @@
   "signals": [
     {"id": "MAZDA3_AC_LOAD_SIG_V", "path": "Battery", "fmt": { "len": 16, "max": 319.9942, "mul": 12207, "div": 2500000, "unit": "volts" }, "name": "Air conditioning load signal voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 3600, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 3600, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_OAR", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
   ]},
@@ -498,7 +498,7 @@
   "signals": [
     {"id": "MAZDA3_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temp"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053B"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053B"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_CATDMG_MIS_1",           "path": "Engine", "fmt": {            "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 1"},
     {"id": "MAZDA3_CATDMG_MIS_2",           "path": "Engine", "fmt": {"bix": 8,   "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 2"},
@@ -527,11 +527,11 @@
   "signals": [
     {"id": "MAZDA3_LPFP_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Fuel pressure sensor voltage, low"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "057D"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "057D"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_AAT_ALT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GRILL_SHUTTER_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter position"}
   ]},
@@ -567,11 +567,11 @@
   "signals": [
     {"id": "MAZDA3_PCM_A_C_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "A/C refrigerant pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},
@@ -579,27 +579,27 @@
   "signals": [
     {"id": "MAZDA3_MAP_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Manifold absolute pressure voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0914"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0914"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_APP1_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "APP sensor 1 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0915"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0915"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_APP2_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "APP sensor 2 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0917"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0917"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TP1_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle position 1 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0918"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0918"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TP2_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle position 2 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_ETC_DSD_DEG", "path": "Engine", "fmt": { "len": 16, "max": 127.9, "div": 512, "unit": "degrees" }, "name": "Throttle control desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_ETC_ACT_DEG", "path": "Engine", "fmt": { "len": 16, "max": 127.9, "div": 512, "unit": "degrees" }, "name": "Throttle position actual"}
   ]},
@@ -623,7 +623,7 @@
   "signals": [
     {"id": "MAZDA3_EGRP_STEPS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Exhaust gas recirculation purge steps"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
   ]},
@@ -657,7 +657,7 @@
   "signals": [
     {"id": "MAZDA3_ECT_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Engine coolant temp voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1166"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1166"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_EVAP_PURGE_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Evaporative purge"}
   ]},
@@ -681,7 +681,7 @@
   "signals": [
     {"id": "MAZDA3_TRANS_T_VAR_5", "path": "Transmission", "fmt": { "len": 16, "max": 7404.6875, "mul": 9, "div": 80, "add": 32, "unit": "fahrenheit" }, "name": "Transmission temperature, variant 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
   ]},
@@ -738,11 +738,11 @@
   "signals": [
     {"id": "MAZDA3_WASTEGATE_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Wastegate duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GEN_FC", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Generator field coil control duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E9"}, "freq": 5, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E9"}, "freq": 5, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GEN_V", "path": "Engine", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "volts" }, "name": "Generator output voltage"}
   ]},
@@ -827,7 +827,7 @@
   "signals": [
     {"id": "MAZDA3_TOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
   ]},
@@ -850,7 +850,7 @@
   "signals": [
     {"id": "MAZDA3_BAT_ESTIMATED_ST_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Battery estimated state of charge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4029"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4029"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "MAZDA3_BAT_FLUID_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery fluid temperature"}
   ]},
@@ -862,7 +862,7 @@
   "signals": [
     {"id": "MAZDA3_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
@@ -881,7 +881,7 @@
   "signals": [
     {"id": "MAZDA3_BAT_ACCUMULATED_AMP", "path": "Battery", "fmt": { "len": 16, "max": 227.675, "min": -100, "div": 200, "add": -100, "unit": "ampereHours" }, "name": "Battery accumulated amp hours"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DA01"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DA01"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_OIL_P_SOLENOID_VLV", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure solenoid valve, open"}
   ]},
@@ -894,67 +894,67 @@
     {"id": "MAZDA3_TIM_CHAIN_ELONGATION",   "path": "Engine", "fmt": {           "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Timing chain elongation angle"},
     {"id": "MAZDA3_TIM_CHAIN_ELONGATION_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Timing chain elongation angle 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load", "suggestedMetric": "engineLoad"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term", "suggestedMetric": "shortTermFuelTrim"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_LTFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, long term"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_MAP_7E0", "path": "Engine", "fmt": { "len": 8, "max": 36, "mul": 10000, "div": 68947, "unit": "psi" }, "name": "Manifold pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_IAT_ALT2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F411"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F411"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_INT_SHUTTER_VLV_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Intake shutter valve position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_WARMUP_CLR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Warm-ups since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_CAT_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
   ]},
@@ -962,11 +962,11 @@
   "signals": [
     {"id": "MAZDA3_EOP_ALT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_PCM_ACT_ENG_PCT_TRQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -125, "unit": "percent" }, "name": "Actual engine percent torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
   ]},
@@ -997,7 +997,7 @@
   "signals": [
     {"id": "MAZDA3_DPF_DIFF_P", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "kilopascal" }, "name": "Diesel particulate filter differential pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer", "suggestedMetric": "odometer"}
   ]},
@@ -1009,23 +1009,23 @@
   "signals": [
     {"id": "MAZDA3_TRANS_T_V5", "path": "Transmission", "fmt": { "len": 8, "max": 371.4, "min": -57, "mul": 42, "div": 25, "add": -57, "unit": "fahrenheit" }, "name": "Transmission temperature v5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GEAR_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2018, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TRANS_T_V6", "path": "Transmission", "fmt": { "len": 16, "max": 7000, "mul": 9, "div": 80, "add": 32, "unit": "fahrenheit" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E24"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E24"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TQ_CONV_LOCK_UP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Torque converter lock-up"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EC7"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EC7"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TQ_DES", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, desired"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EE4"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EE4"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TQ_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, actual"}
   ]}

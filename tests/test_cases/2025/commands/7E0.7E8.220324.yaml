@@ -4,8 +4,8 @@ test_cases:
     MAZDA3_HPFP_V: 1.4174
   response: '7E8056203240122'
 - expected_values:
-    MAZDA3_HPFP_V: 2.45357
-  response: 7E80562032401F6
+    MAZDA3_HPFP_V: 2.45846
+  response: 7E80562032401F7
 - expected_values:
-    MAZDA3_HPFP_V: 2.51711
-  response: '7E8056203240203'
+    MAZDA3_HPFP_V: 2.50244
+  response: '7E8056203240200'
