@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     MAZDA3_BAT_FLUID_T: 31
   response: '7E80462402947'
+- expected_values:
+    MAZDA3_BAT_FLUID_T: 35
+  response: 7E8046240294B
+- expected_values:
+    MAZDA3_BAT_FLUID_T: 36
+  response: 7E8046240294C
+- expected_values:
+    MAZDA3_BAT_FLUID_T: 37
+  response: 7E8046240294D

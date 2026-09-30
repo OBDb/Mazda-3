@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MAZDA3_WARMUP_CLR: 24
   response: 7E80462F43018
+- expected_values:
+    MAZDA3_WARMUP_CLR: 25
+  response: 7E80462F43019
