@@ -13,5 +13,11 @@ test_cases:
     MAZDA3_GEAR_7E1: 4
   response: 7E904621E1204
 - expected_values:
+    MAZDA3_GEAR_7E1: 5
+  response: 7E904621E1205
+- expected_values:
     MAZDA3_GEAR_7E1: 6
   response: 7E904621E1206
+- expected_values:
+    MAZDA3_GEAR_7E1: 70
+  response: 7E904621E1246

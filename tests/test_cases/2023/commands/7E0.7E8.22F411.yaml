@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F411
 test_cases:
 - expected_values:
-    MAZDA3_INT_SHUTTER_VLV_POS: 12.94118
-  response: 7E80462F41121
+    MAZDA3_INT_SHUTTER_VLV_POS: 10.58824
+  response: 7E80462F4111B
 - expected_values:
     MAZDA3_INT_SHUTTER_VLV_POS: 63.13725
   response: 7E80462F411A1
