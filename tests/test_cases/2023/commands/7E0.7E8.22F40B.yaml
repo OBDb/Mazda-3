@@ -4,5 +4,5 @@ test_cases:
     MAZDA3_MAP_7E0: 3.19086
   response: 7E80462F40B16
 - expected_values:
-    MAZDA3_MAP_7E0: 14.35886
-  response: 7E80462F40B63
+    MAZDA3_MAP_7E0: 14.64893
+  response: 7E80462F40B65

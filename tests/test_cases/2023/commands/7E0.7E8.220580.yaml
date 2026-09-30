@@ -4,6 +4,12 @@ test_cases:
     MAZDA3_GRILL_SHUTTER_POS: 7.05882
   response: '7E80462058012'
 - expected_values:
+    MAZDA3_GRILL_SHUTTER_POS: 10.19608
+  response: 7E8046205801A
+- expected_values:
+    MAZDA3_GRILL_SHUTTER_POS: 12.94118
+  response: '7E80462058021'
+- expected_values:
     MAZDA3_GRILL_SHUTTER_POS: 14.11765
   response: '7E80462058024'
 - expected_values:
