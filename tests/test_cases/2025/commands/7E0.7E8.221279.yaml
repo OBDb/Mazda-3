@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    MAZDA3_IAT_SENS_V: 0.91887
+  response: 7E80562127900BC
+- expected_values:
+    MAZDA3_IAT_SENS_V: 1.09482
+  response: 7E80562127900E0
