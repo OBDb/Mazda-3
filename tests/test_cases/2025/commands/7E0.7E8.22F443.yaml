@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F443
 test_cases:
 - expected_values:
-    MAZDA3_ENG_LOAD_ACT: 6.27451
-  response: 7E80562F4430010
+    MAZDA3_ENG_LOAD_ACT: 5.88235
+  response: 7E80562F443000F
 - expected_values:
     MAZDA3_ENG_LOAD_ACT: 85.88235
   response: 7E80562F44300DB
