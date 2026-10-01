@@ -7,8 +7,8 @@ test_cases:
     MAZDA3_TP2_V: 3.848
   response: 7E8056209180F08
 - expected_values:
-    MAZDA3_TP2_V: 4.349
-  response: 7E80562091810FD
+    MAZDA3_TP2_V: 4.351
+  response: 7E80562091810FF
 - expected_values:
     MAZDA3_TP2_V: 4.361
   response: '7E8056209181109'

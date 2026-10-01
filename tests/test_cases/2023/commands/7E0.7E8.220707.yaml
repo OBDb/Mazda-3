@@ -10,5 +10,8 @@ test_cases:
     MAZDA3_GRILL_SHUT_DC: 26.66667
   response: '7E80462070744'
 - expected_values:
+    MAZDA3_GRILL_SHUT_DC: 46.66667
+  response: '7E80462070777'
+- expected_values:
     MAZDA3_GRILL_SHUT_DC: 100
   response: 7E804620707FF

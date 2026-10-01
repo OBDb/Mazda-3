@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MAZDA3_DIST_DTC_CLR: 2242
   response: 7E80562F43108C2
+- expected_values:
+    MAZDA3_DIST_DTC_CLR: 2253
+  response: 7E80562F43108CD
