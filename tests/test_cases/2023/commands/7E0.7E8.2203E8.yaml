@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2203E8
 test_cases:
 - expected_values:
+    MAZDA3_OAR: 0.21747
+  response: 7E8056203E80DEB
+- expected_values:
     MAZDA3_OAR: 0.2774
   response: 7E8056203E811C1
 - expected_values:

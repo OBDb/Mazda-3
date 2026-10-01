@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MAZDA3_VCT_INT_DUTY: 35.00061
   response: 7E8056203162CCD
+- expected_values:
+    MAZDA3_VCT_INT_DUTY: 89.99939
+  response: '7E8056203167333'

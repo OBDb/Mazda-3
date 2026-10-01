@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220914
 test_cases:
 - expected_values:
-    MAZDA3_APP1_V: 0.793
-  response: '7E8056209140319'
+    MAZDA3_APP1_V: 0.792
+  response: '7E8056209140318'
 - expected_values:
-    MAZDA3_APP1_V: 1.532
-  response: 7E80562091405FC
+    MAZDA3_APP1_V: 1.535
+  response: 7E80562091405FF
 - expected_values:
     MAZDA3_APP1_V: 1.548
   response: 7E805620914060C
