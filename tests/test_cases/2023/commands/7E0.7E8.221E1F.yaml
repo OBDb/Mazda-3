@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     MAZDA3_GEAR_ENG: 6
   response: 7E804621E1F46
+- expected_values:
+    MAZDA3_GEAR_ENG: 6
+  response: 7E804621E1F82
