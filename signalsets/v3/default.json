@@ -28,19 +28,19 @@
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "2A05"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 1 pressure"}
+    {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 1 pressure"}
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 2 pressure"}
+    {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 2 pressure"}
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 3 pressure"}
+    {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 3 pressure"}
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "2A08"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
   "signals": [
-    {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 4 pressure"}
+    {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 4 pressure"}
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "2A0A"}, "freq": 15, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
@@ -240,7 +240,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2013], "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_MAP", "path": "Engine", "fmt": { "len": 16, "max": 4, "div": 1000, "unit": "volts" }, "name": "Map voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
+    {"id": "MAZDA3_MAP", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "unit": "volts" }, "name": "Map voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0306"}, "freq": 1,
   "signals": [
@@ -264,7 +264,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0318"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
-    {"id": "MAZDA3_VCT_INT_ACT", "fmt": { "len": 16, "max": 0, "div": 16, "unit": "degrees" }, "name": "VCT intake camshaft actual"}
+    {"id": "MAZDA3_VCT_INT_ACT", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "degrees" }, "name": "VCT intake camshaft actual"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0319"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
@@ -827,7 +827,7 @@
   "signals": [
     {"id": "MAZDA3_TOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
   ]},
@@ -1009,23 +1009,23 @@
   "signals": [
     {"id": "MAZDA3_TRANS_T_V5", "path": "Transmission", "fmt": { "len": 8, "max": 371.4, "min": -57, "mul": 42, "div": 25, "add": -57, "unit": "fahrenheit" }, "name": "Transmission temperature v5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_GEAR_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TRANS_T_V6", "path": "Transmission", "fmt": { "len": 16, "max": 7000, "mul": 9, "div": 80, "add": 32, "unit": "fahrenheit" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E24"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E24"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TQ_CONV_LOCK_UP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Torque converter lock-up"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EC7"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EC7"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TQ_DES", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, desired"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EE4"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EE4"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_TQ_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, actual"}
   ]}
