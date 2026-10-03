@@ -4,5 +4,5 @@ test_cases:
     MAZDA3_LTFT: -2.34375
   response: 7E80462F4077D
 - expected_values:
-    MAZDA3_LTFT: 6.25
-  response: 7E80462F40788
+    MAZDA3_LTFT: 7.03125
+  response: 7E80462F40789
