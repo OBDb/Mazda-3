@@ -970,7 +970,7 @@
   "signals": [
     {"id": "MAZDA3_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F469"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F469"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "MAZDA3_EGR_VLV_POS_DES",   "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation A valve position, desired"},
     {"id": "MAZDA3_EGR_VLV_POS",       "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation A valve position"},
