@@ -1,6 +1,12 @@
 command_id: 726.72E.22D922|f=2019-
 test_cases:
 - expected_values:
+    MAZDA3_TP_FL: 35.6
+  response: '72E 04 62 D9 22 B2 '
+- expected_values:
+    MAZDA3_TP_FL: 36.6
+  response: '72E 04 62 D9 22 B7 '
+- expected_values:
     MAZDA3_TP_FL: 30.6
   response: 72E0462D92299
 - expected_values:

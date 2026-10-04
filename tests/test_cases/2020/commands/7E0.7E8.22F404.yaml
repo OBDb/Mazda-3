@@ -6,6 +6,18 @@ test_cases:
     22F404
     7E80462F40444
 - expected_values:
+    MAZDA3_ENG_LOAD_PCT: 5.4902
+  response: '7E8 04 62 F4 04 0E '
+- expected_values:
+    MAZDA3_ENG_LOAD_PCT: 12.54902
+  response: '7E8 04 62 F4 04 20 '
+- expected_values:
+    MAZDA3_ENG_LOAD_PCT: 30.98039
+  response: '7E8 04 62 F4 04 4F '
+- expected_values:
+    MAZDA3_ENG_LOAD_PCT: 94.5098
+  response: '7E8 04 62 F4 04 F1 '
+- expected_values:
     MAZDA3_ENG_LOAD_PCT: 0
   response: 7E80462F40400
 - expected_values:
