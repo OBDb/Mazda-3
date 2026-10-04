@@ -4,8 +4,8 @@ test_cases:
     MAZDA3_TRANS_T_V6: 79.925
   response: 7E905621E1C01AA
 - expected_values:
-    MAZDA3_TRANS_T_V6: 175.775
-  response: 7E905621E1C04FE
+    MAZDA3_TRANS_T_V6: 118.175
+  response: 7E905621E1C02FE
 - expected_values:
     MAZDA3_TRANS_T_V6: 176
   response: 7E905621E1C0500
