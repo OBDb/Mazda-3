@@ -13,6 +13,7 @@ supported_commands_by_ecu:
   - 726.72E.22D929|f=2019-:MAZDA3_TT_RR
   "7DF":
   - 7DF.0105
+  - 7DF.0106
   - 7DF.0131
   - 7DF.0134
   - 7DF.0142
