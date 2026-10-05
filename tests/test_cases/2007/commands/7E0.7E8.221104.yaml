@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.221104
-test_cases:
-- expected_values:
-    MAZDA3_AC_REQ_SW: 0
-  response: '7E80462110400'
-- expected_values:
-    MAZDA3_AC_REQ_SW: 1
-  response: '7E80462110401'

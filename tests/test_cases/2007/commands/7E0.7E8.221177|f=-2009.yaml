@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221177|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_MAF_V: 5.38
+  response: '7E8056211771504'
+- expected_values:
+    MAZDA3_MAF_V: 8.44
+  response: 7E80562117720F8
+- expected_values:
+    MAZDA3_MAF_V: 13.34
+  response: 7E805621177341C

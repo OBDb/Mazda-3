@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221410|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_FUEL_PW: 0.952
+  response: '7E8056214100077'
+- expected_values:
+    MAZDA3_FUEL_PW: 2.04
+  response: 7E80562141000FF
+- expected_values:
+    MAZDA3_FUEL_PW: 4.12
+  response: '7E8056214100203'
+- expected_values:
+    MAZDA3_FUEL_PW: 6.896
+  response: 7E805621410035E

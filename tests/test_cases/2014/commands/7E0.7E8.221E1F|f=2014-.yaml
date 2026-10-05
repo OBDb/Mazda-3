@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221E1F|f=2014-
+test_cases:
+- expected_values:
+    MAZDA3_GEAR_ENG: 2
+  response: 7E804621E1F02
+- expected_values:
+    MAZDA3_GEAR_ENG: 4
+  response: 7E804621E1F04

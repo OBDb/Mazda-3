@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221103|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_FAN1_SW: 0
+    MAZDA3_FAN2_SW: 0
+    MAZDA3_IMRC_SW: 0
+    MAZDA3_MIL_SW: 1
+  response: '7E80462110320'
+- expected_values:
+    MAZDA3_FAN1_SW: 0
+    MAZDA3_FAN2_SW: 0
+    MAZDA3_IMRC_SW: 1
+    MAZDA3_MIL_SW: 1
+  response: '7E80462110330'

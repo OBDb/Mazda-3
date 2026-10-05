@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221169|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_TPCT: 94.03125
+  response: '7E8056211691782'
+- expected_values:
+    MAZDA3_TPCT: 94.34375
+  response: '7E8056211691796'

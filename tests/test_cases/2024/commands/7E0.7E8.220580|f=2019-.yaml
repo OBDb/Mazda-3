@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220580|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_GRILL_SHUTTER_POS: 7.05882
+  response: '7E80462058012'
+- expected_values:
+    MAZDA3_GRILL_SHUTTER_POS: 7.84314
+  response: '7E80462058014'
+- expected_values:
+    MAZDA3_GRILL_SHUTTER_POS: 9.01961
+  response: '7E80462058017'
+- expected_values:
+    MAZDA3_GRILL_SHUTTER_POS: 10.19608
+  response: 7E8046205801A
+- expected_values:
+    MAZDA3_GRILL_SHUTTER_POS: 47.05882
+  response: '7E80462058078'

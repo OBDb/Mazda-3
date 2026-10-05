@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.229800|f=2014-
+test_cases:
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 0.99609
+  response: 7E80562980003FC
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 1.00098
+  response: '7E8056298000401'
+- expected_values:
+    MAZDA3_AC_P_SENS_V: 2.25098
+  response: '7E8056298000901'

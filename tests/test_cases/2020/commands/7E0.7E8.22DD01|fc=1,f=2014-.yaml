@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22DD01|fc=1,f=2014-
+test_cases:
+- expected_values:
+    MAZDA3_ODO: 108953
+  response: '7E8 06 62 DD 01 01 A9 99 '
+- expected_values:
+    MAZDA3_ODO: 108960
+  response: '7E8 06 62 DD 01 01 A9 A0 '
+- expected_values:
+    MAZDA3_ODO: 108990
+  response: '7E8 06 62 DD 01 01 A9 BE '
+- expected_values:
+    MAZDA3_ODO: 109025
+  response: '7E8 06 62 DD 01 01 A9 E1 '
+- expected_values:
+    MAZDA3_ODO: 108609
+  response: 7E80662DD0101A841
+- expected_values:
+    MAZDA3_ODO: 109053
+  response: 7E80662DD0101A9FD
+- expected_values:
+    MAZDA3_ODO: 109056
+  response: 7E80662DD0101AA00

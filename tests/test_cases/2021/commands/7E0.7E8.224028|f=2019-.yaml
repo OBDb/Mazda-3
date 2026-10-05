@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.224028|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_BAT_ESTIMATED_ST_CHG: 82
+  response: '7E80462402852'
+- expected_values:
+    MAZDA3_BAT_ESTIMATED_ST_CHG: 83
+  response: '7E80462402853'
+- expected_values:
+    MAZDA3_BAT_ESTIMATED_ST_CHG: 84
+  response: '7E80462402854'

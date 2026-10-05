@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22096E|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_IDLE: 820
+  response: 7E80562096E0CD0
+- expected_values:
+    MAZDA3_IDLE: 820.5
+  response: 7E80562096E0CD2
+- expected_values:
+    MAZDA3_IDLE: 855
+  response: 7E80562096E0D5C
+- expected_values:
+    MAZDA3_IDLE: 884.25
+  response: 7E80562096E0DD1
+- expected_values:
+    MAZDA3_IDLE: 888.75
+  response: 7E80562096E0DE3
+- expected_values:
+    MAZDA3_IDLE: 899.25
+  response: 7E80562096E0E0D
+- expected_values:
+    MAZDA3_IDLE: 925.75
+  response: 7E80562096E0E77
+- expected_values:
+    MAZDA3_IDLE: 934
+  response: 7E80562096E0E98
+- expected_values:
+    MAZDA3_IDLE: 985.75
+  response: 7E80562096E0F67
+- expected_values:
+    MAZDA3_IDLE: 988
+  response: 7E80562096E0F70

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220968|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_GEN_CHRGLP: 0
+  response: '7E8056209680000'

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203BA|f=2014-
+test_cases:
+- expected_values:
+    MAZDA3_AAT_V: 1.31965
+  response: 7E8056203BA010E
+- expected_values:
+    MAZDA3_AAT_V: 1.75953
+  response: 7E8056203BA0168

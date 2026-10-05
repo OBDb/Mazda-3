@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.22A216
-test_cases:
-- expected_values:
-    MAZDA3_SCCS_V: 4.99519
-  response: 7E80562A216FFC0
