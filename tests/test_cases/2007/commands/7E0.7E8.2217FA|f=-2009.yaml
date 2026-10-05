@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2217FA|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_LDP_EVAPCP: 0
+  response: 7E8056217FA0000

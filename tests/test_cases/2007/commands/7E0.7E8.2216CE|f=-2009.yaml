@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2216CE|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_VT_DIFF: 0
+  response: 7E8056216CE0000
+- expected_values:
+    MAZDA3_VT_DIFF: 4095
+  response: 7E8056216CEFFF8
+- expected_values:
+    MAZDA3_VT_DIFF: 4095
+  response: 7E8056216CEFFFF

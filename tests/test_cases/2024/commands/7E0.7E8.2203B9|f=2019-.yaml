@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203B9|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_COOLING_FAN_DUTY: 0
+  response: 7E8056203B90000
+- expected_values:
+    MAZDA3_COOLING_FAN_DUTY: 16.36072
+  response: 7E8056203B914F1
+- expected_values:
+    MAZDA3_COOLING_FAN_DUTY: 29.86801
+  response: 7E8056203B9263B

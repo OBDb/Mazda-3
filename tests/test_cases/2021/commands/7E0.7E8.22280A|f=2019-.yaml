@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22280A|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_BRAKE_FLUID_P: 0
+  response: 7E80562280A0000
+- expected_values:
+    MAZDA3_BRAKE_FLUID_P: 10.9375
+  response: 7E80562280A000E
+- expected_values:
+    MAZDA3_BRAKE_FLUID_P: 61.71875
+  response: 7E80562280A004F
+- expected_values:
+    MAZDA3_BRAKE_FLUID_P: 496.875
+  response: 7E80562280A027C

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F47A|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_DPF_DIFF_P: 0.11
+  response: |-
+    7E8100A62F47A01000B
+    7E82100000000000000
+- expected_values:
+    MAZDA3_DPF_DIFF_P: 5.1
+  response: |-
+    7E8100A62F47A0101FE
+    7E82100000000000000
+- expected_values:
+    MAZDA3_DPF_DIFF_P: -1.16
+  response: |-
+    7E8100A62F47A01FF8C
+    7E82100000000000000

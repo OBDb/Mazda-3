@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F462|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 0
+  response: 7E80462F4627D
+- expected_values:
+    MAZDA3_PCM_ACT_ENG_PCT_TRQ: 74
+  response: 7E80462F462C7

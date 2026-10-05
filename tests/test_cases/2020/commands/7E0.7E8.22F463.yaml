@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.22F463
-test_cases:
-- expected_values:
-    MAZDA3_PCM_ENG_REFERENCE_TRQ: 280
-  response: 7E80562F4630118

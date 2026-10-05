@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220707|f=2019-
+test_cases:
+- expected_values:
+    MAZDA3_GRILL_SHUT_DC: 26.66667
+  response: '7E80462070744'
+- expected_values:
+    MAZDA3_GRILL_SHUT_DC: 100
+  response: 7E804620707FF

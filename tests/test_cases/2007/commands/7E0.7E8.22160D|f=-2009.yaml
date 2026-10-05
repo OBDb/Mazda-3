@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22160D|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_IMTV_SW: 0
+  response: 7E80462160D00
+- expected_values:
+    MAZDA3_IMTV_SW: 1
+  response: 7E80462160D02

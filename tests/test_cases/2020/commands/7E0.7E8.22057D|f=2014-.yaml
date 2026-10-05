@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22057D|f=2014-
+test_cases:
+- expected_values:
+    MAZDA3_AAT_ALT: 24.5
+  response: 7E80462057D81
+- expected_values:
+    MAZDA3_AAT_ALT: 25
+  response: 7E80462057D82
+- expected_values:
+    MAZDA3_AAT_ALT: 25.5
+  response: 7E80462057D83
+- expected_values:
+    MAZDA3_AAT_ALT: 26
+  response: 7E80462057D84
+- expected_values:
+    MAZDA3_AAT_ALT: 26.5
+  response: 7E80462057D85

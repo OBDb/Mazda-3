@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2216B3|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_BARO_V: 47.104
+  response: 7E8056216B3B800
+- expected_values:
+    MAZDA3_BARO_V: 47.168
+  response: 7E8056216B3B840
+- expected_values:
+    MAZDA3_BARO_V: 47.232
+  response: 7E8056216B3B880

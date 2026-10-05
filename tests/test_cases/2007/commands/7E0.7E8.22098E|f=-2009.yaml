@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22098E|f=-2009
+test_cases:
+- expected_values:
+    MAZDA3_EGRP_STEPS: 0
+  response: 7E80562098E0000
+- expected_values:
+    MAZDA3_EGRP_STEPS: 29
+  response: 7E80562098E001D
