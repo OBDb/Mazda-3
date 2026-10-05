@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221E12
+test_cases:
+- expected_values:
+    MAZDA3_GEAR_7E1: 70
+  response: 7E904621E1246
