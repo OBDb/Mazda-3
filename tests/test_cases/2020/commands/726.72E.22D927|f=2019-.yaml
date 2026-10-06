@@ -10,5 +10,5 @@ test_cases:
     MAZDA3_TT_FR: -4
   response: 72E0462D9272E
 - expected_values:
-    MAZDA3_TT_FR: 45
-  response: 72E0462D9275F
+    MAZDA3_TT_FR: 204
+  response: 72E0462D927FE
