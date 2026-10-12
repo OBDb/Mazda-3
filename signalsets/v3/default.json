@@ -310,7 +310,7 @@
   "signals": [
     {"id": "MAZDA3_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "div": 27.582114, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035A"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035A"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012, 2013], "from": 2016 },
   "signals": [
     {"id": "MAZDA3_BARO_V_7E0", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
