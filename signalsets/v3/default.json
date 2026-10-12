@@ -80,19 +80,19 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D926"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front left temperature", "suggestedMetric": "frontLeftTireTemperature"}
+    {"id": "MAZDA3_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Front left temperature", "suggestedMetric": "frontLeftTireTemperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D927"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front right temperature", "suggestedMetric": "frontRightTireTemperature"}
+    {"id": "MAZDA3_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Front right temperature", "suggestedMetric": "frontRightTireTemperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D928"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear left temperature", "suggestedMetric": "rearLeftTireTemperature"}
+    {"id": "MAZDA3_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Rear left temperature", "suggestedMetric": "rearLeftTireTemperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D929"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear right temperature", "suggestedMetric": "rearRightTireTemperature"}
+    {"id": "MAZDA3_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Rear right temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "DA05"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
