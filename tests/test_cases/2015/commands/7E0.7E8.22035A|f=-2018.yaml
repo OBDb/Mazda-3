@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.22035A
+command_id: 7E0.7E8.22035A|f=-2018
 test_cases:
 - expected_values:
     MAZDA3_BARO_V_7E0: 3.63636
