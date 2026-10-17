@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221EC7
+test_cases:
+- expected_values:
+    MAZDA3_TQ_DES: -7
+  response: 7E905621EC7FEA2
