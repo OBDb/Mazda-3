@@ -13,8 +13,8 @@ test_cases:
     MAZDA3_FLI: 95.68627
   response: '7E8 04 62 F4 2F F4 '
 - expected_values:
-    MAZDA3_FLI: 5.4902
-  response: 7E80462F42F0E
+    MAZDA3_FLI: 3.92157
+  response: 7E80462F42F0A
 - expected_values:
     MAZDA3_FLI: 96.07843
   response: 7E80462F42FF5
