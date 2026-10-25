@@ -10,8 +10,8 @@ test_cases:
     MAZDA3_TP_RL: 35.2
   response: '72E 04 62 D9 24 B0 '
 - expected_values:
-    MAZDA3_TP_RL: 30.2
-  response: 72E0462D92497
+    MAZDA3_TP_RL: 29.8
+  response: 72E0462D92495
 - expected_values:
     MAZDA3_TP_RL: 50.8
   response: 72E0462D924FE
