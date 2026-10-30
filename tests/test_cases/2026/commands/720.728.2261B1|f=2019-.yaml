@@ -1,14 +1,14 @@
-command_id: 720.728.2261B1
+command_id: 720.728.2261B1|f=2019-
 test_cases:
 - expected_values:
-    MAZDA3_FUEL_LEVEL: 55
+    MAZDA3_FUEL_LEVEL: 75
   response: 728046261B14B
 - expected_values:
-    MAZDA3_FUEL_LEVEL: 55
+    MAZDA3_FUEL_LEVEL: 76
   response: 728046261B14C
 - expected_values:
-    MAZDA3_FUEL_LEVEL: 55
+    MAZDA3_FUEL_LEVEL: 77
   response: 728046261B14D
 - expected_values:
-    MAZDA3_FUEL_LEVEL: 55
+    MAZDA3_FUEL_LEVEL: 78
   response: 728046261B14E

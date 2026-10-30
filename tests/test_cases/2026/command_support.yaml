@@ -1,7 +1,7 @@
 model_year: 2026
 supported_commands_by_ecu:
   "720":
-  - 720.728.2261B1:MAZDA3_FUEL_LEVEL
+  - 720.728.2261B1|f=2019-:MAZDA3_FUEL_LEVEL
   "726":
   - 726.72E.22D922|f=2019-:MAZDA3_TP_FL
   - 726.72E.22D923|f=2019-:MAZDA3_TP_FR
