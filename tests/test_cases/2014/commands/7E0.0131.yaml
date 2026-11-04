@@ -7,16 +7,13 @@ test_cases:
     CLR_DIST: 2779
   response: '7E8 04 41 31 0A DB '
 - expected_values:
-    CLR_DIST: 34
-  response: '7E80441310022'
+    CLR_DIST: 0
+  response: '7E80441310000'
 - expected_values:
     CLR_DIST: 579
   response: |-
     7E8044131024A
     7E90441310243
-- expected_values:
-    CLR_DIST: 1280
-  response: '7E80441310500'
 - expected_values:
     CLR_DIST: 10278
   response: |-
