@@ -4,5 +4,5 @@ test_cases:
     MAZDA3_STFT: -4.6875
   response: 7E80462F4067A
 - expected_values:
-    MAZDA3_STFT: 25.78125
-  response: 7E80462F406A1
+    MAZDA3_STFT: 28.125
+  response: 7E80462F406A4
