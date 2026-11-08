@@ -811,7 +811,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E16"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E16"}, "freq": 3600, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "MAZDA3_AXLE_GEAR_RATIO_MEAS", "path": "Transmission", "fmt": { "len": 16, "max": 10, "div": 4096, "unit": "scalar" }, "name": "Axle gear ratio, measured"}
   ]},
