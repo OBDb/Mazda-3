@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220316
+test_cases:
+- expected_values:
+    MAZDA3_VCT_INT_DUTY: 10.00061
+  response: 7E8056203160CCD
