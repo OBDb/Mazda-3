@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    MAZDA3_CAT_TEMP: 304.7
-  response: 7E80562F43C0D77
+    MAZDA3_CAT_TEMP: 202
+  response: 7E80562F43C0974
 - expected_values:
-    MAZDA3_CAT_TEMP: 312.7
-  response: 7E80562F43C0DC7
+    MAZDA3_CAT_TEMP: 216
+  response: 7E80562F43C0A00
+- expected_values:
+    MAZDA3_CAT_TEMP: 676.6
+  response: 7E80562F43C1BFE
+- expected_values:
+    MAZDA3_CAT_TEMP: 702.4
+  response: 7E80562F43C1D00
