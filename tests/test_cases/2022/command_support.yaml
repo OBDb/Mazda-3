@@ -50,6 +50,7 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0146:AAT
   - 0147:TP_B
+  - 0149:APP_D
   - 014A:APP_E
   - 014C:TAC_PCT
   - 0151:FUEL_TYP
@@ -140,6 +141,7 @@ supported_commands_by_ecu:
   - 010D:VSS
   - 010F:IAT
   - 0111:TP
+  - 011C:OBDSUP
   - 011F:RUNTM
   - 0121:MIL_DIST
   - 0130:WARM_UPS
