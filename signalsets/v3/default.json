@@ -26,19 +26,19 @@
   "signals": [
     {"id": "MAZDA3_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "2A05"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "2A05"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 1 pressure"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 2 pressure"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 3 pressure"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "2A08"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2013], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "2A08"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "nullmin": 0, "nullmax": 3.5, "unit": "bars" }, "name": "Wheel 4 pressure"}
   ]},
