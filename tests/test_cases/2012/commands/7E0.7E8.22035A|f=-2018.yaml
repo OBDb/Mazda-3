@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22035A|f=-2018
 test_cases:
 - expected_values:
-    MAZDA3_BARO_V_7E0: 4.11535
-  response: 7E80562035A034A
+    MAZDA3_BARO_V_7E0: 4.09091
+  response: 7E80562035A0345
+- expected_values:
+    MAZDA3_BARO_V_7E0: 4.14956
+  response: 7E80562035A0351
