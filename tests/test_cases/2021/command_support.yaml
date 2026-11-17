@@ -212,7 +212,6 @@ supported_commands_by_ecu:
   - 010D:VSS
   - 010F:IAT
   - 0111:TP
-  - 011C:OBDSUP
   - 011F:RUNTM
   - 0121:MIL_DIST
   - 0130:WARM_UPS

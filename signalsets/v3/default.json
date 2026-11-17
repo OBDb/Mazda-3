@@ -64,19 +64,19 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D922"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "MAZDA3_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D923"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "MAZDA3_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D924"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "MAZDA3_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D925"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAZDA3_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "MAZDA3_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D926"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2027 },
   "signals": [
@@ -404,7 +404,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 3600, "filter": { "from": 2014 }, "dbgfilter": { "years": [2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
-    {"id": "MAZDA3_OAR", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
+    {"id": "MAZDA3_OAR", "fmt": { "len": 16, "max": 1, "min": -1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
@@ -975,7 +975,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2016, 2017, 2019, 2022], "from": 2026 },
   "signals": [
-    {"id": "MAZDA3_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
+    {"id": "MAZDA3_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "absoluteEngineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F45C"}, "freq": 1,
   "signals": [
